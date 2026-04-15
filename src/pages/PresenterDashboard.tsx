@@ -427,10 +427,10 @@ const PresenterDashboard: React.FC = () => {
         />
       )}
 
-      <div className="min-h-screen bg-gray-900 text-white flex flex-col font-sans">
+      <div className="min-h-screen bg-bg text-white flex flex-col font-sans">
 
         {/* ── Top bar ── */}
-        <header className="bg-gray-950 border-b border-gray-800 px-5 py-3 flex items-center justify-between gap-4">
+        <header className="bg-bg-deep border-b border-border px-5 py-3 flex items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <span className="font-bold text-gray-300 text-sm tracking-wide">Bom Mentiroso</span>
             <span className="text-gray-600">·</span>
@@ -455,7 +455,7 @@ const PresenterDashboard: React.FC = () => {
         <div className="flex flex-1 overflow-hidden">
 
           {/* ── Left sidebar: controls ── */}
-          <aside className="w-64 shrink-0 border-r border-gray-800 flex flex-col p-4 gap-4 overflow-y-auto">
+          <aside className="w-64 shrink-0 border-r border-border flex flex-col p-4 gap-4 overflow-y-auto">
 
             {/* Current question */}
             {currentQuestion && gameState !== 'lobby' && gameState !== 'category-selection' && (
@@ -484,13 +484,13 @@ const PresenterDashboard: React.FC = () => {
             </section>
 
             {/* Divider */}
-            <div className="border-t border-gray-800" />
+            <div className="border-t border-border" />
 
             {/* Utilities */}
             <section className="flex flex-col gap-2">
               <button
                 onClick={() => setShowDeck(true)}
-                className="w-full text-left px-3 py-2 rounded-lg bg-gray-800 hover:bg-gray-700 text-gray-300 text-xs font-semibold transition-colors border border-gray-700"
+                className="w-full text-left px-3 py-2 rounded-lg bg-surface-overlay hover:bg-surface-raised text-gray-300 text-xs font-semibold transition-colors border border-border"
               >
                 Ver deck de questões
               </button>
@@ -563,7 +563,7 @@ const PresenterDashboard: React.FC = () => {
                           ? 'border-yellow-400 bg-yellow-900/20'
                           : isHotSeat
                           ? 'border-yellow-600 bg-yellow-900/10'
-                          : 'border-gray-700 bg-gray-800',
+                           : 'border-border bg-surface',
                       ].join(' ')}
                     >
                       {/* Kick button — only in lobby, top-right corner, on hover */}

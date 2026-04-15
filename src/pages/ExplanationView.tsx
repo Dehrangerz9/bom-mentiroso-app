@@ -14,8 +14,8 @@ const ExplanationView: React.FC = () => {
 
   if (!player) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen bg-red-500 p-4">
-        <div className="bg-white rounded-2xl shadow-lg p-8 text-center">
+      <div className="flex flex-col items-center justify-center min-h-screen bg-bg p-4">
+        <div className="bg-surface border border-border rounded-2xl shadow-lg p-8 text-center">
           <p className="text-gray-500">Aguardando explicação...</p>
         </div>
       </div>
@@ -23,8 +23,8 @@ const ExplanationView: React.FC = () => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-red-500 p-4">
-      <div className="animate-scale-in bg-white rounded-2xl shadow-xl p-10 flex flex-col items-center gap-6 w-full max-w-sm text-center">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-bg p-4">
+      <div className="animate-scale-in bg-surface border border-border rounded-2xl shadow-xl p-10 flex flex-col items-center gap-6 w-full max-w-sm text-center">
         {/* Timer */}
         <Timer time={timer} />
 
@@ -32,7 +32,7 @@ const ExplanationView: React.FC = () => {
         <Avatar src={player.avatar} alt={player.name} size="large" />
 
         {/* Name */}
-        <h2 className="text-3xl font-extrabold text-gray-800 animate-fade-in-up">{player.name}</h2>
+        <h2 className="text-3xl font-extrabold text-gray-100 animate-fade-in-up">{player.name}</h2>
 
         {/* Status */}
         <p className="text-lg text-gray-500 font-medium animate-fade-in-up-delay">Está explicando...</p>

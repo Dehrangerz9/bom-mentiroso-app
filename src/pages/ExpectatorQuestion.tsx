@@ -42,11 +42,11 @@ const ExpectatorQuestion: React.FC = () => {
   // ── Transition screen ────────────────────────────────────────────────────────
   if (showTransition) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen bg-red-500 p-4 text-center">
-        <p className="animate-fade-in text-white text-2xl font-semibold mb-4 opacity-90">
+      <div className="flex flex-col items-center justify-center min-h-screen bg-bg p-4 text-center">
+        <p className="animate-fade-in text-gray-400 text-2xl font-semibold mb-4">
           A categoria escolhida foi...
         </p>
-        <h1 className="animate-scale-in-delay text-white text-6xl font-extrabold drop-shadow-lg">
+        <h1 className="animate-scale-in-delay text-accent text-6xl font-extrabold drop-shadow-lg">
           {categoryName}
         </h1>
       </div>
@@ -65,18 +65,21 @@ const ExpectatorQuestion: React.FC = () => {
             return (
               <div
                 key={id}
-                className="flex items-center justify-between bg-white rounded-2xl shadow px-5 py-3"
+                className={[
+                  'flex items-center justify-between bg-surface border rounded-2xl shadow px-5 py-3',
+                  isHotSeat ? 'border-accent/40' : 'border-border',
+                ].join(' ')}
               >
                 <div className="flex items-center gap-3">
                   <Avatar src={p.avatar} alt={p.name} size="small" />
                   <div className="flex flex-col">
-                    <span className="text-base font-bold text-gray-800">{p.name}</span>
+                    <span className="text-base font-bold text-gray-100">{p.name}</span>
                     {isHotSeat ? (
-                      <span className="text-xs font-semibold text-red-500 animate-pulse-soft">
+                      <span className="text-xs font-semibold text-accent animate-pulse-soft">
                         Respondendo...
                       </span>
                     ) : (
-                      <span className="text-xs font-medium text-gray-400">Aguardando...</span>
+                      <span className="text-xs font-medium text-gray-500">Aguardando...</span>
                     )}
                   </div>
                 </div>
@@ -92,12 +95,12 @@ const ExpectatorQuestion: React.FC = () => {
         <div className="mb-4 flex justify-center">
           <Timer time={timer} />
         </div>
-        <h1 className="text-2xl font-bold mb-6 text-center">{currentQuestion.question}</h1>
+        <h1 className="text-2xl font-bold mb-6 text-center text-gray-100">{currentQuestion.question}</h1>
 
         {/* Difficulty badge */}
         {currentQuestion.difficulty && (
           <div className="flex justify-center mb-4">
-            <span className="inline-block bg-gray-100 text-gray-600 text-xs font-bold px-3 py-1 rounded-full">
+            <span className="inline-block bg-surface-overlay border border-border text-gray-400 text-xs font-bold px-3 py-1 rounded-full">
               Dificuldade: {currentQuestion.difficulty}/10
             </span>
           </div>
@@ -108,16 +111,16 @@ const ExpectatorQuestion: React.FC = () => {
             <button
               key={index}
               disabled
-              className="p-4 border rounded-lg text-left bg-white cursor-default"
+              className="p-4 border border-border rounded-xl text-left bg-surface-overlay text-gray-400 cursor-default text-sm"
             >
-              <span className="font-bold mr-2">{String.fromCharCode(65 + index)}:</span>
+              <span className="font-bold mr-2 text-gray-600">{String.fromCharCode(65 + index)}:</span>
               {option}
             </button>
           ))}
         </div>
 
         {!isAnswerEnabled && (
-          <p className="text-center text-xs text-gray-400 mt-4 italic">
+          <p className="text-center text-xs text-gray-600 mt-4 italic">
             Aguardando o apresentador liberar a resposta...
           </p>
         )}

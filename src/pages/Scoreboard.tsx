@@ -55,31 +55,31 @@ const Scoreboard: React.FC<ScoreboardProps> = ({ compact = false }) => {
       <div className="animate-fade-in-down w-full">
         <div
           className={[
-            'w-full rounded-2xl p-5 flex flex-col items-center gap-2',
+            'w-full rounded-2xl p-5 flex flex-col items-center gap-2 border-2',
             wasCorrect
-              ? 'bg-green-100 border-2 border-green-400'
-              : 'bg-red-100 border-2 border-red-400',
+              ? 'bg-green-900/20 border-green-700'
+              : 'bg-red-900/20 border-red-800',
           ].join(' ')}
         >
           <p className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-1">Berlinda</p>
           <Avatar src={berlinda.avatar} alt={berlinda.name} size="medium" />
-          <h2 className="text-xl font-extrabold text-gray-800">{berlinda.name}</h2>
+          <h2 className="text-xl font-extrabold text-gray-100">{berlinda.name}</h2>
           <p className="text-4xl">{wasCorrect ? '✅' : '❌'}</p>
-          <p className={`text-lg font-extrabold ${wasCorrect ? 'text-green-700' : 'text-red-700'}`}>
+          <p className={`text-lg font-extrabold ${wasCorrect ? 'text-green-400' : 'text-red-400'}`}>
             {berlindaWasLying ? 'Estava mentindo!' : 'Disse a verdade!'}
           </p>
 
           {/* Answers comparison */}
           <div className="w-full flex flex-col gap-2 mt-2">
-            <div className="rounded-xl p-3 bg-white border border-gray-200 text-left">
-              <p className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-1">Respondeu</p>
-              <p className={`font-bold text-sm ${wasCorrect ? 'text-green-700' : 'text-red-600'}`}>
+            <div className="rounded-xl p-3 bg-surface border border-border text-left">
+              <p className="text-xs font-bold uppercase tracking-widest text-gray-600 mb-1">Respondeu</p>
+              <p className={`font-bold text-sm ${wasCorrect ? 'text-green-400' : 'text-red-400'}`}>
                 {playerAnswer || '—'}
               </p>
             </div>
-            <div className="rounded-xl p-3 bg-green-50 border border-green-300 text-left">
+            <div className="rounded-xl p-3 bg-green-900/20 border border-green-800 text-left">
               <p className="text-xs font-bold uppercase tracking-widest text-green-600 mb-1">Resposta correta</p>
-              <p className="font-bold text-sm text-green-700">{correctAnswer}</p>
+              <p className="font-bold text-sm text-green-400">{correctAnswer}</p>
             </div>
           </div>
         </div>
@@ -87,24 +87,24 @@ const Scoreboard: React.FC<ScoreboardProps> = ({ compact = false }) => {
 
       {/* Vote breakdown */}
       {voterEntries.length > 0 && (
-        <div className="animate-scale-in-bounce w-full bg-white rounded-2xl shadow p-5 border border-gray-100">
-          <p className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-3">
+        <div className="animate-scale-in-bounce w-full bg-surface border border-border rounded-2xl shadow p-5">
+          <p className="text-xs font-bold uppercase tracking-widest text-gray-600 mb-3">
             Votos desta rodada
           </p>
           <div className="flex gap-3 w-full mb-3">
-            <div className="flex-1 rounded-xl p-3 bg-red-50 border border-red-200 text-center">
-              <p className="text-2xl font-extrabold text-red-600">{lieVoters}</p>
+            <div className="flex-1 rounded-xl p-3 bg-red-900/20 border border-red-800 text-center">
+              <p className="text-2xl font-extrabold text-red-400">{lieVoters}</p>
               <p className="text-xs text-red-500 font-semibold mt-0.5">Mentindo</p>
             </div>
-            <div className="flex-1 rounded-xl p-3 bg-green-50 border border-green-200 text-center">
-              <p className="text-2xl font-extrabold text-green-600">
+            <div className="flex-1 rounded-xl p-3 bg-green-900/20 border border-green-800 text-center">
+              <p className="text-2xl font-extrabold text-green-400">
                 {totalVoters - lieVoters}
               </p>
-              <p className="text-xs text-green-500 font-semibold mt-0.5">Verdade</p>
+              <p className="text-xs text-green-600 font-semibold mt-0.5">Verdade</p>
             </div>
           </div>
           {correctVoters.length > 0 && (
-            <div className="rounded-xl p-3 bg-green-50 border border-green-200 text-left mb-2">
+            <div className="rounded-xl p-3 bg-green-900/20 border border-green-800 text-left mb-2">
               <p className="text-xs font-bold uppercase tracking-widest text-green-600 mb-2">
                 Acertaram o voto (+1 pt)
               </p>
@@ -115,7 +115,7 @@ const Scoreboard: React.FC<ScoreboardProps> = ({ compact = false }) => {
                   return (
                     <div key={id} className="flex items-center gap-2">
                       <Avatar src={p.avatar} alt={p.name} size="small" />
-                      <span className="text-sm font-semibold text-green-800">{p.name}</span>
+                      <span className="text-sm font-semibold text-green-400">{p.name}</span>
                     </div>
                   );
                 })}
@@ -123,7 +123,7 @@ const Scoreboard: React.FC<ScoreboardProps> = ({ compact = false }) => {
             </div>
           )}
           {wrongVoters.length > 0 && (
-            <div className="rounded-xl p-3 bg-red-50 border border-red-200 text-left">
+            <div className="rounded-xl p-3 bg-red-900/20 border border-red-800 text-left">
               <p className="text-xs font-bold uppercase tracking-widest text-red-500 mb-2">
                 Erraram o voto
               </p>
@@ -134,7 +134,7 @@ const Scoreboard: React.FC<ScoreboardProps> = ({ compact = false }) => {
                   return (
                     <div key={id} className="flex items-center gap-2">
                       <Avatar src={p.avatar} alt={p.name} size="small" />
-                      <span className="text-sm font-semibold text-red-700">{p.name}</span>
+                      <span className="text-sm font-semibold text-red-400">{p.name}</span>
                     </div>
                   );
                 })}
@@ -147,7 +147,7 @@ const Scoreboard: React.FC<ScoreboardProps> = ({ compact = false }) => {
       {/* Placar dos Detetives — % de acertos acumulado */}
       {nonBerlindaPlayers.length > 0 && (
         <div className="animate-fade-in-up-delay w-full">
-          <p className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-3">
+          <p className="text-xs font-bold uppercase tracking-widest text-gray-600 mb-3">
             Placar dos Detetives
           </p>
           <div className="flex flex-col gap-2">
@@ -158,16 +158,16 @@ const Scoreboard: React.FC<ScoreboardProps> = ({ compact = false }) => {
               return (
                 <div
                   key={id}
-                  className="flex items-center justify-between rounded-xl px-4 py-3 bg-gray-100"
+                  className="flex items-center justify-between rounded-xl px-4 py-3 bg-surface-overlay border border-border"
                 >
                   <div className="flex items-center gap-3">
-                    <span className="text-sm font-bold text-gray-400 w-5">{i + 1}.</span>
+                    <span className="text-sm font-bold text-gray-600 w-5">{i + 1}.</span>
                     <Avatar src={p.avatar} alt={p.name} size="small" />
-                    <span className="font-bold text-gray-800">{p.name}</span>
+                    <span className="font-bold text-gray-200">{p.name}</span>
                   </div>
                   <div className="flex flex-col items-end">
-                    <span className="font-extrabold text-yellow-600 text-lg leading-none">{pct}%</span>
-                    <span className="text-xs text-gray-400">{p.correctVotes}/{p.totalVotes} acertos</span>
+                    <span className="font-extrabold text-accent text-lg leading-none">{pct}%</span>
+                    <span className="text-xs text-gray-600">{p.correctVotes}/{p.totalVotes} acertos</span>
                   </div>
                 </div>
               );
@@ -181,8 +181,8 @@ const Scoreboard: React.FC<ScoreboardProps> = ({ compact = false }) => {
   if (compact) return content;
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-red-500 p-4 overflow-y-auto">
-      <div className="animate-fade-in-up bg-white rounded-2xl shadow-xl p-8 w-full max-w-sm">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-bg p-4 overflow-y-auto">
+      <div className="animate-fade-in-up w-full max-w-sm py-6">
         {content}
       </div>
     </div>

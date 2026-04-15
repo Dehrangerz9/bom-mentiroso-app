@@ -63,11 +63,11 @@ const AppContent: React.FC<AppContentProps> = ({ role, onBack }) => {
   // Category transition overlay for participant
   if (!isExpectator && showCategoryTransition) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen bg-red-500 p-4 text-center">
-        <p className="animate-fade-in text-white text-2xl font-semibold mb-4 opacity-90">
+      <div className="flex flex-col items-center justify-center min-h-screen bg-bg p-4 text-center">
+        <p className="animate-fade-in text-gray-400 text-2xl font-semibold mb-4">
           A categoria escolhida foi...
         </p>
-        <h1 className="animate-scale-in-delay text-white text-6xl font-extrabold drop-shadow-lg">
+        <h1 className="animate-scale-in-delay text-accent text-6xl font-extrabold drop-shadow-lg">
           {transitionCategoryName}
         </h1>
       </div>
@@ -81,15 +81,15 @@ const AppContent: React.FC<AppContentProps> = ({ role, onBack }) => {
     switch (gameState) {
       case 'lobby':
         return (
-          <div className="flex flex-col items-center justify-center min-h-screen bg-red-500">
-            <div className="animate-scale-in bg-white rounded-xl shadow-lg p-8 text-center">
-              <p className="text-xl font-semibold text-gray-700">
+          <div className="flex flex-col items-center justify-center min-h-screen bg-bg">
+            <div className="animate-scale-in bg-surface border border-border rounded-2xl shadow-lg p-8 text-center">
+              <p className="text-lg font-semibold text-gray-300">
                 {isExpectator
                   ? 'Aguardando o jogo iniciar...'
                   : 'Aguardando o apresentador iniciar o jogo...'}
               </p>
-              <p className="text-sm text-gray-400 mt-2">
-                Sala: <span className="font-bold tracking-widest">{roomCode}</span>
+              <p className="text-sm text-gray-500 mt-2">
+                Sala: <span className="font-bold tracking-widest text-accent">{roomCode}</span>
               </p>
             </div>
           </div>
@@ -102,9 +102,9 @@ const AppContent: React.FC<AppContentProps> = ({ role, onBack }) => {
         // Non-berlinda participant sees a waiting screen
         if (!isBerlinda) {
           return (
-            <div className="flex flex-col items-center justify-center min-h-screen bg-red-500 p-4">
-              <div className="animate-scale-in bg-white rounded-xl shadow-lg p-8 text-center">
-                <p className="text-xl font-semibold text-gray-700">
+            <div className="flex flex-col items-center justify-center min-h-screen bg-bg p-4">
+              <div className="animate-scale-in bg-surface border border-border rounded-2xl shadow-lg p-8 text-center">
+                <p className="text-lg font-semibold text-gray-300">
                   {berlindaName ? `${berlindaName} está escolhendo uma categoria...` : 'Aguardando escolha de categoria...'}
                 </p>
                 <p className="text-3xl mt-4 animate-pulse-soft">🎯</p>
@@ -113,7 +113,7 @@ const AppContent: React.FC<AppContentProps> = ({ role, onBack }) => {
           );
         }
         return (
-          <div className="flex flex-col items-center justify-center min-h-screen bg-red-500 p-4">
+          <div className="flex flex-col items-center justify-center min-h-screen bg-bg p-4">
             <CategorySelection />
           </div>
         );
@@ -121,7 +121,7 @@ const AppContent: React.FC<AppContentProps> = ({ role, onBack }) => {
       case 'question':
         if (isExpectator) {
           return (
-            <div className="flex flex-col items-center justify-center min-h-screen bg-red-500 p-4">
+            <div className="flex flex-col items-center justify-center min-h-screen bg-bg p-4">
               <ExpectatorQuestion />
             </div>
           );
@@ -129,9 +129,9 @@ const AppContent: React.FC<AppContentProps> = ({ role, onBack }) => {
         // Non-berlinda sees a watching screen
         if (!isBerlinda) {
           return (
-            <div className="flex flex-col items-center justify-center min-h-screen bg-red-500 p-4">
-              <div className="animate-scale-in bg-white rounded-xl shadow-lg p-8 text-center max-w-sm">
-                <p className="text-xl font-semibold text-gray-700">
+            <div className="flex flex-col items-center justify-center min-h-screen bg-bg p-4">
+              <div className="animate-scale-in bg-surface border border-border rounded-2xl shadow-lg p-8 text-center max-w-sm">
+                <p className="text-lg font-semibold text-gray-300">
                   {berlindaName ? `${berlindaName} está respondendo a pergunta...` : 'A berlinda está respondendo a pergunta...'}
                 </p>
                 <p className="text-3xl mt-4 animate-pulse-soft">🤔</p>
@@ -141,7 +141,7 @@ const AppContent: React.FC<AppContentProps> = ({ role, onBack }) => {
         }
         // Berlinda answers
         return (
-          <div className="flex flex-col items-center justify-center min-h-screen bg-red-500 p-4">
+          <div className="flex flex-col items-center justify-center min-h-screen bg-bg p-4">
             <Question />
           </div>
         );
@@ -155,9 +155,9 @@ const AppContent: React.FC<AppContentProps> = ({ role, onBack }) => {
       case 'voting':
         if (isExpectator) {
           return (
-            <div className="flex flex-col items-center justify-center min-h-screen bg-red-500 p-4">
-              <div className="animate-scale-in bg-white rounded-xl shadow-lg p-8 text-center">
-                <p className="text-xl font-semibold text-gray-700">Jogadores estão votando...</p>
+            <div className="flex flex-col items-center justify-center min-h-screen bg-bg p-4">
+              <div className="animate-scale-in bg-surface border border-border rounded-2xl shadow-lg p-8 text-center">
+                <p className="text-lg font-semibold text-gray-300">Jogadores estão votando...</p>
                 <p className="text-3xl mt-4 animate-pulse-soft">🗳️</p>
               </div>
             </div>
@@ -167,7 +167,7 @@ const AppContent: React.FC<AppContentProps> = ({ role, onBack }) => {
 
       case 'reveal':
         return (
-          <div className="flex flex-col items-center justify-center min-h-screen bg-red-500 p-4">
+          <div className="flex flex-col items-center justify-center min-h-screen bg-bg p-4">
             <Reveal readOnly={isExpectator} />
           </div>
         );
@@ -181,7 +181,7 @@ const AppContent: React.FC<AppContentProps> = ({ role, onBack }) => {
   };
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-bg">
       {showProgressBar && (
         <HotSeatProgressBar
           avatar={berlindaPlayer!.avatar}

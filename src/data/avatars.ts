@@ -33,7 +33,7 @@ const demonSlayer: string[] = [
   'https://myanimelist.net/images/characters/2/378254.jpg',   // Nezuko Kamado
   'https://myanimelist.net/images/characters/10/459689.jpg',  // Zenitsu Agatsuma
   'https://myanimelist.net/images/characters/3/329560.jpg',   // Inosuke Hashibira
-  'https://myanimelist.net/images/characters/7/369715.jpg',   // Kyojuro Rengoku
+  'https://myanimelist.net/images/characters/10/423443.jpg',   // Kyojuro Rengoku
   'https://myanimelist.net/images/characters/16/387706.jpg',  // Tengen Uzui
   'https://myanimelist.net/images/characters/3/386591.jpg',   // Shinobu Kochou
 ];
@@ -57,7 +57,7 @@ const bnha: string[] = [
 
 // --- Dragon Ball (5) — MyAnimeList CDN ---
 const dragonBall: string[] = [
-  'https://myanimelist.net/images/characters/16/618693.jpg',  // Son Goku
+  'https://myanimelist.net/images/characters/15/357229.jpg',  // Son Goku
   'https://myanimelist.net/images/characters/14/86185.jpg',   // Vegeta
   'https://myanimelist.net/images/characters/12/110722.jpg',  // Son Gohan
   'https://myanimelist.net/images/characters/8/45628.jpg',    // Piccolo
@@ -70,14 +70,14 @@ const naruto: string[] = [
   'https://myanimelist.net/images/characters/9/131317.jpg',   // Sasuke Uchiha
   'https://myanimelist.net/images/characters/7/284129.jpg',   // Kakashi Hatake
   'https://myanimelist.net/images/characters/9/284122.jpg',   // Itachi Uchiha
-  'https://myanimelist.net/images/characters/8/172327.jpg',   // Sakura Haruno
+  'https://myanimelist.net/images/characters/8/314717.jpg',   // Sakura Haruno
 ];
 
 // --- Sailor Moon (5) — MyAnimeList CDN ---
 const sailorMoon: string[] = [
   'https://myanimelist.net/images/characters/4/312776.jpg',   // Usagi Tsukino / Sailor Moon
-  'https://myanimelist.net/images/characters/7/113524.jpg',   // Rei Hino / Sailor Mars
-  'https://myanimelist.net/images/characters/12/113525.jpg',  // Ami Mizuno / Sailor Mercury
+  'https://myanimelist.net/images/characters/2/324042.jpg',   // Rei Hino / Sailor Mars
+  'https://myanimelist.net/images/characters/16/501610.jpg',  // Ami Mizuno / Sailor Mercury
   'https://myanimelist.net/images/characters/2/324032.jpg',   // Makoto Kino / Sailor Jupiter
   'https://myanimelist.net/images/characters/14/324034.jpg',  // Minako Aino / Sailor Venus
 ];

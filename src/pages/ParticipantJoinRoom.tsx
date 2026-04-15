@@ -19,32 +19,32 @@ const ParticipantJoinRoom: React.FC<{ onBack: () => void }> = ({ onBack }) => {
   };
 
   return (
-    <div className="h-screen w-screen bg-red-500 flex flex-col overflow-hidden">
+    <div className="h-screen w-screen bg-bg flex flex-col overflow-hidden">
       {/* Header */}
-      <div className="shrink-0 px-4 pt-4 pb-2 flex items-center gap-3">
+      <div className="shrink-0 px-4 pt-4 pb-2 flex items-center gap-3 border-b border-border">
         <button
           onClick={onBack}
-          className="text-white/80 hover:text-white transition-colors p-1 rounded-lg hover:bg-white/10 active:scale-95"
+          className="text-gray-400 hover:text-gray-200 transition-colors p-1 rounded-lg hover:bg-surface-overlay active:scale-95"
           title="Voltar"
         >
           <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
           </svg>
         </button>
-        <h1 className="text-xl font-black text-white tracking-tight">Entrar na Sala</h1>
+        <h1 className="text-xl font-black text-gray-100 tracking-tight">Entrar na Sala</h1>
         {!connected && (
-          <p className="text-red-200 text-xs ml-auto">Conectando...</p>
+          <p className="text-yellow-500 text-xs ml-auto">Conectando...</p>
         )}
         {roomError && (
-          <p className="text-yellow-200 text-xs font-semibold ml-auto">{roomError}</p>
+          <p className="text-red-400 text-xs font-semibold ml-auto">{roomError}</p>
         )}
       </div>
 
       {/* Main body: form + avatar picker */}
-      <div className="flex-1 min-h-0 flex flex-col sm:flex-row gap-3 px-3 pb-3">
+      <div className="flex-1 min-h-0 flex flex-col sm:flex-row gap-3 px-3 pb-3 pt-3">
 
         {/* Left panel: fields + button */}
-        <div className="shrink-0 sm:w-52 flex flex-col gap-3 bg-white rounded-2xl shadow-lg p-4">
+        <div className="shrink-0 sm:w-52 flex flex-col gap-3 bg-surface border border-border rounded-2xl shadow-lg p-4">
           <div>
             <label className="block text-xs font-bold text-gray-500 uppercase tracking-widest mb-1">
               Código da Sala
@@ -55,7 +55,7 @@ const ParticipantJoinRoom: React.FC<{ onBack: () => void }> = ({ onBack }) => {
               value={code}
               onChange={(e) => setCode(e.target.value.toUpperCase())}
               maxLength={6}
-              className="w-full px-3 py-2 border-2 border-gray-200 rounded-xl uppercase tracking-widest text-center text-lg font-black focus:border-red-400 focus:outline-none transition-colors"
+              className="w-full px-3 py-2 bg-surface-overlay border border-border rounded-xl uppercase tracking-widest text-center text-lg font-black text-gray-100 placeholder-gray-600 focus:border-accent focus:outline-none transition-colors"
             />
           </div>
 
@@ -68,7 +68,7 @@ const ParticipantJoinRoom: React.FC<{ onBack: () => void }> = ({ onBack }) => {
               placeholder="Digite seu apelido"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="w-full px-3 py-2 border-2 border-gray-200 rounded-xl text-sm font-semibold focus:border-red-400 focus:outline-none transition-colors"
+              className="w-full px-3 py-2 bg-surface-overlay border border-border rounded-xl text-sm font-semibold text-gray-100 placeholder-gray-600 focus:border-accent focus:outline-none transition-colors"
             />
           </div>
 
@@ -78,7 +78,7 @@ const ParticipantJoinRoom: React.FC<{ onBack: () => void }> = ({ onBack }) => {
             <img
               src={selectedAvatar}
               alt="Avatar selecionado"
-              className="w-20 h-20 rounded-full object-cover border-4 border-red-400 shadow"
+              className="w-20 h-20 rounded-full object-cover border-4 border-accent shadow"
             />
           </div>
 
@@ -89,8 +89,8 @@ const ParticipantJoinRoom: React.FC<{ onBack: () => void }> = ({ onBack }) => {
               className={[
                 'w-full py-2.5 rounded-xl font-black text-sm tracking-wide transition-all',
                 (!code.trim() || !name.trim() || !connected)
-                  ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
-                  : 'bg-red-500 hover:bg-red-600 text-white shadow-md active:scale-95',
+                  ? 'bg-surface-overlay text-gray-600 cursor-not-allowed border border-border'
+                  : 'bg-accent hover:bg-accent-dim text-gray-900 shadow-md active:scale-95',
               ].join(' ')}
             >
               Entrar na Sala
@@ -99,7 +99,7 @@ const ParticipantJoinRoom: React.FC<{ onBack: () => void }> = ({ onBack }) => {
         </div>
 
         {/* Right panel: avatar grid picker */}
-        <div className="flex-1 min-h-0 bg-white rounded-2xl shadow-lg p-4 flex flex-col overflow-hidden">
+        <div className="flex-1 min-h-0 bg-surface border border-border rounded-2xl shadow-lg p-4 flex flex-col overflow-hidden">
           <p className="shrink-0 text-xs font-bold text-gray-500 uppercase tracking-widest mb-3">
             Escolha seu Avatar
           </p>
@@ -112,8 +112,8 @@ const ParticipantJoinRoom: React.FC<{ onBack: () => void }> = ({ onBack }) => {
                   className={[
                     'rounded-full overflow-hidden border-4 transition-all active:scale-95 focus:outline-none',
                     selectedAvatar === avatar
-                      ? 'border-red-500 shadow-lg scale-105'
-                      : 'border-transparent hover:border-red-300',
+                      ? 'border-accent shadow-lg scale-105'
+                      : 'border-transparent hover:border-accent/40',
                   ].join(' ')}
                   aria-label={`Avatar ${i + 1}`}
                 >

@@ -5,6 +5,27 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        // Dark design system tokens
+        surface: {
+          DEFAULT: '#1e2128', // card / panel surface
+          raised:  '#262b35', // slightly elevated surface
+          overlay: '#2e3340', // hover / interactive surface
+        },
+        bg: {
+          DEFAULT: '#13161c', // page background
+          deep:    '#0d1014', // deeper background (modals backdrop)
+        },
+        border: {
+          subtle:  '#2a2f3a',
+          DEFAULT: '#363c4a',
+          strong:  '#4a5165',
+        },
+        accent: {
+          DEFAULT: '#facc15', // yellow-400 — primary accent
+          dim:     '#ca9a04',
+        },
+      },
       keyframes: {
         'fade-in': {
           '0%':   { opacity: '0' },
