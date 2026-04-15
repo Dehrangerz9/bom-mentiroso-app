@@ -5,6 +5,7 @@ export interface Question {
   options: string[];
   correctAnswer: string;
   explanation: string;
+  difficulty: number; // 1–10
 }
 
 export interface Category {

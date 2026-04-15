@@ -11,8 +11,10 @@ import Voting from './pages/Voting';
 import Reveal from './pages/Reveal';
 import ExplanationView from './pages/ExplanationView';
 import Scoreboard from './pages/Scoreboard';
+import HotSeatProgressBar from './components/shared/HotSeatProgressBar';
 
 const TRANSITION_MS = 2200;
+const TOTAL_ROUNDS = 10;
 
 interface AppContentProps {
   role: 'participant' | 'expectator';
@@ -47,9 +49,11 @@ const AppContent: React.FC<AppContentProps> = ({ role, onBack }) => {
 
   if (!game) return <div>Carregando...</div>;
 
-  const { gameState, roomCode, hotSeatPlayerId, socketId } = game;
+  const { gameState, roomCode, hotSeatPlayerId, socketId, players, usedCategories } = game;
   const isExpectator = role === 'expectator';
   const isBerlinda = !isExpectator && socketId !== null && socketId === hotSeatPlayerId;
+  const berlindaPlayer = hotSeatPlayerId ? players[hotSeatPlayerId] : null;
+  const berlindaName = berlindaPlayer?.name ?? null;
 
   // Not in a room yet — show appropriate join screen
   if (!roomCode) {
@@ -69,6 +73,9 @@ const AppContent: React.FC<AppContentProps> = ({ role, onBack }) => {
       </div>
     );
   }
+
+  // Whether to show the progress bar (once game has started)
+  const showProgressBar = gameState !== 'lobby' && berlindaPlayer != null;
 
   const renderContent = () => {
     switch (gameState) {
@@ -98,7 +105,7 @@ const AppContent: React.FC<AppContentProps> = ({ role, onBack }) => {
             <div className="flex flex-col items-center justify-center min-h-screen bg-red-500 p-4">
               <div className="animate-scale-in bg-white rounded-xl shadow-lg p-8 text-center">
                 <p className="text-xl font-semibold text-gray-700">
-                  A berlinda está escolhendo a categoria...
+                  {berlindaName ? `${berlindaName} está escolhendo uma categoria...` : 'Aguardando escolha de categoria...'}
                 </p>
                 <p className="text-3xl mt-4 animate-pulse-soft">🎯</p>
               </div>
@@ -125,7 +132,7 @@ const AppContent: React.FC<AppContentProps> = ({ role, onBack }) => {
             <div className="flex flex-col items-center justify-center min-h-screen bg-red-500 p-4">
               <div className="animate-scale-in bg-white rounded-xl shadow-lg p-8 text-center max-w-sm">
                 <p className="text-xl font-semibold text-gray-700">
-                  A berlinda está respondendo a pergunta...
+                  {berlindaName ? `${berlindaName} está respondendo a pergunta...` : 'A berlinda está respondendo a pergunta...'}
                 </p>
                 <p className="text-3xl mt-4 animate-pulse-soft">🤔</p>
               </div>
@@ -173,7 +180,21 @@ const AppContent: React.FC<AppContentProps> = ({ role, onBack }) => {
     }
   };
 
-  return <>{renderContent()}</>;
+  return (
+    <div className="flex flex-col min-h-screen">
+      {showProgressBar && (
+        <HotSeatProgressBar
+          avatar={berlindaPlayer!.avatar}
+          name={berlindaPlayer!.name}
+          completedRounds={usedCategories.length}
+          totalRounds={TOTAL_ROUNDS}
+        />
+      )}
+      <div className={showProgressBar ? 'flex-1' : ''}>
+        {renderContent()}
+      </div>
+    </div>
+  );
 };
 
 export default AppContent;

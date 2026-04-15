@@ -39,6 +39,8 @@ interface GameContextProps {
   expectatorCount: number;
   /** This client's socket ID (used to check if local player is the hot-seat) */
   socketId: string | null;
+  /** Categories already used in this game (berlinda cannot repeat) */
+  usedCategories: string[];
   // Participant actions
   joinRoom: (code: string, name: string, avatar: string) => void;
   joinAsExpectator: (code: string) => void;
@@ -86,6 +88,7 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
   const [hotSeatVotes, setHotSeatVotes] = useState<Record<string, 'lying' | 'truth'>>({});
   const [expectatorCount, setExpectatorCount] = useState(0);
   const [socketId, setSocketId] = useState<string | null>(null);
+  const [usedCategories, setUsedCategories] = useState<string[]>([]);
 
   useEffect(() => {
     const socket = io(BACKEND_URL, { transports: ['websocket', 'polling'] });
@@ -133,11 +136,15 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
       if (state.explanationPlayerAnswer !== undefined) setExplanationPlayerAnswer(state.explanationPlayerAnswer);
       if (state.hotSeatVotes !== undefined) setHotSeatVotes(state.hotSeatVotes);
       if (state.expectatorCount !== undefined) setExpectatorCount(state.expectatorCount);
+      if (state.usedCategories !== undefined) setUsedCategories(state.usedCategories);
       // When the presenter advances (next question / reset), clear all answer/vote state
       if (state.gameState === 'category-selection' || state.gameState === 'lobby') {
         setSelectedAnswer(null);
         setIsAnswerCorrect(null);
         setHotSeatVotes({});
+      }
+      if (state.gameState === 'lobby') {
+        setUsedCategories([]);
       }
     });
 
@@ -269,6 +276,7 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
     hotSeatVotes,
     expectatorCount,
     socketId,
+    usedCategories,
     joinRoom,
     joinAsExpectator,
     selectCategory,

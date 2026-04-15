@@ -31,8 +31,8 @@ const ExpectatorQuestion: React.FC = () => {
 
   if (!game || !game.currentQuestion) return null;
 
-  const { currentQuestion, players, isAnswerEnabled, timer } = game;
-  const playerList = Object.values(players);
+  const { currentQuestion, players, hotSeatPlayerId, isAnswerEnabled, timer } = game;
+  const playerEntries = Object.entries(players);
 
   // Map category id to a display name from the categories list
   const categoryName =
@@ -53,35 +53,34 @@ const ExpectatorQuestion: React.FC = () => {
     );
   }
 
-  // ── Question screen (with entrance animation) ────────────────────────────────
+  // ── Question screen ──────────────────────────────────────────────────────────
   return (
     <div className="w-full max-w-2xl flex flex-col gap-4 animate-fade-in-up">
-      {/* Status banner */}
-      {!isAnswerEnabled && (
-        <div className="text-center animate-fade-in">
-          <span className="inline-block bg-white text-gray-800 font-bold text-base px-5 py-2 rounded-full shadow-lg">
-            Respostas ainda não liberadas
-          </span>
-        </div>
-      )}
 
-      {/* Player status cards — shown when answers are enabled */}
-      {isAnswerEnabled && playerList.length > 0 && (
-        <div className="flex flex-col gap-3">
-          {playerList.map((p) => {
-            const hasAnswered = !!p.selectedAnswer;
+      {/* Player status cards — always visible */}
+      {playerEntries.length > 0 && (
+        <div className="flex flex-col gap-2">
+          {playerEntries.map(([id, p]) => {
+            const isHotSeat = id === hotSeatPlayerId;
             return (
               <div
-                key={p.name}
-                className="flex items-center justify-between bg-white rounded-2xl shadow px-5 py-4"
+                key={id}
+                className="flex items-center justify-between bg-white rounded-2xl shadow px-5 py-3"
               >
-                <div className="flex flex-col">
-                  <span className="text-lg font-bold text-gray-800">{p.name}</span>
-                  <span className={`text-sm font-medium mt-1 ${hasAnswered ? 'text-green-600' : 'text-yellow-600'}`}>
-                    {hasAnswered ? `${p.name} já escolheu` : 'Escolhendo uma resposta...'}
-                  </span>
+                <div className="flex items-center gap-3">
+                  <Avatar src={p.avatar} alt={p.name} size="small" />
+                  <div className="flex flex-col">
+                    <span className="text-base font-bold text-gray-800">{p.name}</span>
+                    {isHotSeat ? (
+                      <span className="text-xs font-semibold text-red-500 animate-pulse-soft">
+                        Respondendo...
+                      </span>
+                    ) : (
+                      <span className="text-xs font-medium text-gray-400">Aguardando...</span>
+                    )}
+                  </div>
                 </div>
-                <Avatar src={p.avatar} alt={p.name} size="small" />
+                {isHotSeat && <span className="text-lg">🤔</span>}
               </div>
             );
           })}
@@ -95,6 +94,15 @@ const ExpectatorQuestion: React.FC = () => {
         </div>
         <h1 className="text-2xl font-bold mb-6 text-center">{currentQuestion.question}</h1>
 
+        {/* Difficulty badge */}
+        {currentQuestion.difficulty && (
+          <div className="flex justify-center mb-4">
+            <span className="inline-block bg-gray-100 text-gray-600 text-xs font-bold px-3 py-1 rounded-full">
+              Dificuldade: {currentQuestion.difficulty}/10
+            </span>
+          </div>
+        )}
+
         <div className={`grid grid-cols-2 gap-4 ${!isAnswerEnabled ? 'opacity-40' : 'opacity-100'}`}>
           {currentQuestion.options.map((option: string, index: number) => (
             <button
@@ -107,6 +115,12 @@ const ExpectatorQuestion: React.FC = () => {
             </button>
           ))}
         </div>
+
+        {!isAnswerEnabled && (
+          <p className="text-center text-xs text-gray-400 mt-4 italic">
+            Aguardando o apresentador liberar a resposta...
+          </p>
+        )}
       </Card>
     </div>
   );
