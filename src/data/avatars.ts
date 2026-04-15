@@ -1,5 +1,5 @@
 // Avatar image pool — URL-based (no local downloads)
-// ~90 avatars across multiple categories
+// ~95 avatars across multiple categories
 
 // --- Pokémon: original 10 ---
 const pokemon: string[] = [
@@ -38,7 +38,7 @@ const demonSlayer: string[] = [
   'https://myanimelist.net/images/characters/3/386591.jpg',   // Shinobu Kochou
 ];
 
-// --- Jujutsu Kaisen (7) — MyAnimeList CDN ---
+// --- Jujutsu Kaisen (8) — MyAnimeList CDN ---
 const jjk: string[] = [
   'https://myanimelist.net/images/characters/15/422168.jpg',  // Satoru Gojo
   'https://myanimelist.net/images/characters/6/467646.jpg',   // Yuji Itadori
@@ -47,6 +47,7 @@ const jjk: string[] = [
   'https://myanimelist.net/images/characters/16/581424.jpg',  // Kento Nanami
   'https://myanimelist.net/images/characters/6/431152.jpg',   // Sukuna
   'https://myanimelist.net/images/characters/10/461503.jpg',  // Yuuta Okkotsu
+  'https://myanimelist.net/images/characters/15/423949.jpg',  // Maki Zenin
 ];
 
 // --- Boku no Hero Academia (3) — MyAnimeList CDN ---
@@ -117,11 +118,22 @@ const minerals: string[] = [
   'https://images.unsplash.com/photo-1632789395770-20e6f63be806?w=300&q=80',  // tourmaline
 ];
 
-// --- Games (3) — Steam CDN + Minecraft Wiki ---
+// --- Games (2) — Steam CDN + Minecraft Wiki ---
 const games: string[] = [
-  'https://cdn.cloudflare.steamstatic.com/steam/apps/367520/capsule_616x353.jpg',  // Hollow Knight
   'https://cdn.cloudflare.steamstatic.com/steam/apps/612390/header.jpg',            // Dandara: Trials of Fear
   'https://minecraft.wiki/images/thumb/Grass_Block_JE7_BE6.png/150px-Grass_Block_JE7_BE6.png', // Minecraft
+];
+
+// --- Hollow Knight characters (3) — fextralife wiki CDN ---
+const hollowKnight: string[] = [
+  'https://hollowknight.wiki.fextralife.com/file/Hollow-Knight/char_hollow_knight_wiki_infobox.png',           // The Knight
+  'https://hollowknight.wiki.fextralife.com/file/Hollow-Knight/hornet_npc_icon_hollow_knight_wiki.png',        // Hornet
+  'https://hollowknight.wiki.fextralife.com/file/Hollow-Knight/the-grimm-troupe-small-infobox-hollow-knight-wiki-guide.jpg', // Grimm
+];
+
+// --- Western animation / film characters (1) ---
+const westernChars: string[] = [
+  'https://static.wikia.nocookie.net/disney/images/6/66/Profile_-_Scar.jpeg',  // Scar (The Lion King)
 ];
 
 // --- Software / tech logos (10) — devicons via jsDelivr CDN ---
@@ -152,6 +164,8 @@ export const AVATAR_POOL: string[] = [
   ...landscape,
   ...minerals,
   ...games,
+  ...hollowKnight,
+  ...westernChars,
   ...tech,
 ];
 
