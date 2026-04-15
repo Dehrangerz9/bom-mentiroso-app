@@ -1,17 +1,10 @@
 import React, { createContext, useState, ReactNode, useEffect, useRef } from 'react';
 import { io, Socket } from 'socket.io-client';
-import { Category, Question } from '../data/mockData';
+import { Category, Player, Question } from '../data/mockData';
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:2999';
 
 type GameState = 'lobby' | 'category-selection' | 'question' | 'answer-reveal' | 'explanation' | 'voting' | 'reveal' | 'scoreboard' | 'finished';
-
-interface Player {
-  name: string;
-  avatar: string;
-  score: number;
-  selectedAnswer?: string | null;
-}
 
 interface GameContextProps {
   gameState: GameState;
@@ -41,12 +34,16 @@ interface GameContextProps {
   socketId: string | null;
   /** Categories already used in this game (berlinda cannot repeat) */
   usedCategories: string[];
+  /** IDs of questions already used — persists across resets */
+  usedQuestionIds: number[];
   // Participant actions
   joinRoom: (code: string, name: string, avatar: string) => void;
   joinAsExpectator: (code: string) => void;
   selectCategory: (categoryId: string) => void;
   submitAnswer: (answer: string) => void;
   submitVote: (vote: 'lying' | 'truth') => void;
+  /** Kick a player from the room (presenter only) */
+  kickPlayer: (playerId: string) => void;
   // Presenter actions
   createRoom: () => void;
   startGame: () => void;
@@ -89,6 +86,7 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
   const [expectatorCount, setExpectatorCount] = useState(0);
   const [socketId, setSocketId] = useState<string | null>(null);
   const [usedCategories, setUsedCategories] = useState<string[]>([]);
+  const [usedQuestionIds, setUsedQuestionIds] = useState<number[]>([]);
 
   useEffect(() => {
     const socket = io(BACKEND_URL, { transports: ['websocket', 'polling'] });
@@ -124,6 +122,12 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
       setGameState('lobby');
     });
 
+    socket.on('room:kicked', (data: { message: string }) => {
+      setRoomError(data.message);
+      setRoomCode(null);
+      setGameState('lobby');
+    });
+
     socket.on('game:state', (state: any) => {
       setGameState(state.gameState);
       setCurrentQuestion(state.currentQuestion);
@@ -137,6 +141,7 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
       if (state.hotSeatVotes !== undefined) setHotSeatVotes(state.hotSeatVotes);
       if (state.expectatorCount !== undefined) setExpectatorCount(state.expectatorCount);
       if (state.usedCategories !== undefined) setUsedCategories(state.usedCategories);
+      if (state.usedQuestionIds !== undefined) setUsedQuestionIds(state.usedQuestionIds);
       // When the presenter advances (next question / reset), clear all answer/vote state
       if (state.gameState === 'category-selection' || state.gameState === 'lobby') {
         setSelectedAnswer(null);
@@ -229,11 +234,16 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
     socketRef.current?.emit('presenter:reset_game', { code: roomCode });
   };
 
+  const kickPlayer = (playerId: string) => {
+    if (!roomCode) return;
+    socketRef.current?.emit('presenter:kick_player', { code: roomCode, playerId });
+  };
+
   // ── PARTICIPANT ────────────────────────────────────────────────────────────
 
   const joinRoom = (code: string, name: string, avatar: string) => {
     setRoomError(null);
-    setPlayerState({ name, avatar, score: 0 });
+    setPlayerState({ name, avatar, score: 0, totalVotes: 0, correctVotes: 0 });
     socketRef.current?.emit('player:join_room', { code: code.toUpperCase(), name, avatar });
   };
 
@@ -277,11 +287,13 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
     expectatorCount,
     socketId,
     usedCategories,
+    usedQuestionIds,
     joinRoom,
     joinAsExpectator,
     selectCategory,
     submitAnswer,
     submitVote,
+    kickPlayer,
     createRoom,
     startGame,
     setHotSeat,
