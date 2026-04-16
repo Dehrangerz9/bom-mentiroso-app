@@ -441,8 +441,8 @@ const PresenterDashboard: React.FC = () => {
       <div className="min-h-screen bg-bg text-white flex flex-col font-sans">
 
         {/* ── Top bar ── */}
-        <header className="bg-bg-deep border-b border-border px-5 py-3 flex items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
+        <header className="bg-bg-deep border-b border-border px-4 py-2.5 flex items-center justify-between gap-2 flex-wrap">
+          <div className="flex items-center gap-2 flex-wrap">
             <span className="font-bold text-gray-300 text-sm tracking-wide">Bom Mentiroso</span>
             <span className="text-gray-600">·</span>
             <StateLabel state={gameState} />
@@ -450,12 +450,12 @@ const PresenterDashboard: React.FC = () => {
               <span className="text-xs text-gray-500">{usedCategories.length}/10 rodadas</span>
             )}
           </div>
-          <div className="flex items-center gap-5">
+          <div className="flex items-center gap-3">
             <span className="text-xs text-gray-500">
-              <span className="text-blue-400 font-bold">{expectatorCount}</span> espectadores
+              <span className="text-blue-400 font-bold">{expectatorCount}</span> espect.
             </span>
             {roomCode ? (
-              <span className="text-xl font-extrabold tracking-[0.2em] text-yellow-400">{roomCode}</span>
+              <span className="text-lg font-extrabold tracking-[0.2em] text-yellow-400">{roomCode}</span>
             ) : (
               <span className="text-gray-500 text-xs">{connected ? 'Criando sala...' : 'Conectando...'}</span>
             )}
@@ -463,10 +463,13 @@ const PresenterDashboard: React.FC = () => {
         </header>
 
         {/* ── Body ── */}
-        <div className="flex flex-1 overflow-hidden">
+        <div className="flex flex-1 flex-col md:flex-row overflow-y-auto md:overflow-hidden">
 
-          {/* ── Left sidebar: controls ── */}
-          <aside className="w-64 shrink-0 border-r border-border flex flex-col p-4 gap-4 overflow-y-auto">
+          {/* ── Sidebar: controls (top on mobile, left on desktop) ── */}
+          <aside className="w-full md:w-64 md:shrink-0 border-b md:border-b-0 md:border-r border-border flex flex-col p-4 gap-4 md:overflow-y-auto">
+
+            {/* On mobile: compact two-column grid for controls */}
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-4 md:gap-4 sm:grid-cols-2">
 
             {/* Current question */}
             {currentQuestion && gameState !== 'lobby' && gameState !== 'category-selection' && (
@@ -512,6 +515,7 @@ const PresenterDashboard: React.FC = () => {
                 Reiniciar jogo
               </button>
             </section>
+            </div>
           </aside>
 
           {/* ── Main area: players ── */}
