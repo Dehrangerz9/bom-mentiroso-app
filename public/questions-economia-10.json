@@ -4,15 +4,91 @@
       "id": "economia-10-1",
       "category": "economia",
       "difficulty": 10,
-      "question": "Qual é o nome do equilíbrio em teoria dos jogos em que nenhum jogador tem incentivo unilateral para mudar sua estratégia, dado o que os outros jogadores estão fazendo?",
-      "options": [
-        "Ótimo de Pareto",
-        "Equilíbrio de Stackelberg",
-        "Equilíbrio de Nash",
-        "Equilíbrio de Walras"
-      ],
+      "question": "Qual equilíbrio em teoria dos jogos nenhum jogador tem incentivo unilateral para desviar?",
+      "options": ["Equilíbrio de Nash", "Ótimo de Pareto", "Equilíbrio Stackelberg", "Equilíbrio Walrasiano"],
       "correctAnswer": "Equilíbrio de Nash",
-      "explanation": "O Equilíbrio de Nash, desenvolvido por John Nash em 1950, é o conceito central da teoria dos jogos não-cooperativos e base de múltiplas análises econômicas e estratégicas."
+      "explanation": "O Equilíbrio de Nash (1950) é o conceito central da teoria dos jogos não-cooperativos: cada jogador escolhe a melhor estratégia dado o que os outros estão fazendo."
+    },
+    {
+      "id": "economia-10-2",
+      "category": "economia",
+      "difficulty": 10,
+      "question": "O que afirma o Teorema da Impossibilidade de Arrow?",
+      "options": ["Sem votação perfeita", "Ciclo de Condorcet", "Preferências intransitivas", "Regra da maioria"],
+      "correctAnswer": "Sem votação perfeita",
+      "explanation": "Arrow (1951) provou que nenhum sistema de votação que converta preferências individuais em coletivas pode satisfazer simultaneamente todos os critérios razoáveis de fairness."
+    },
+    {
+      "id": "economia-10-3",
+      "category": "economia",
+      "difficulty": 10,
+      "question": "Quem desenvolveu a hipótese de instabilidade financeira?",
+      "options": ["Hyman Minsky", "Charles Kindleberger", "Irving Fisher", "Ben Bernanke"],
+      "correctAnswer": "Hyman Minsky",
+      "explanation": "Hyman Minsky formulou que estabilidade gera instabilidade: períodos de prosperidade incentivam excesso de alavancagem financeira, tornando o sistema frágil e suscetível a colapsos."
+    },
+    {
+      "id": "economia-10-4",
+      "category": "economia",
+      "difficulty": 10,
+      "question": "O que significa a sigla DSGE em macroeconomia?",
+      "options": ["Equilíbrio geral dinâmico", "Modelo macroeconômico", "Política monetária", "Expectativas racionais"],
+      "correctAnswer": "Equilíbrio geral dinâmico",
+      "explanation": "DSGE (Dynamic Stochastic General Equilibrium) é a classe dominante de modelos macroeconômicos modernos, combinando microfundamentos, expectativas racionais e choques estocásticos."
+    },
+    {
+      "id": "economia-10-5",
+      "category": "economia",
+      "difficulty": 10,
+      "question": "O que afirma a teoria da captura regulatória de Stigler?",
+      "options": ["Reguladores capturam regulados", "Monopólio natural", "Falha regulatória", "Concorrência perfeita"],
+      "correctAnswer": "Reguladores capturam regulados",
+      "explanation": "George Stigler (1971) argumentou que regulação beneficia frequentemente os regulados em vez do público: as indústrias 'capturam' os reguladores ao longo do tempo."
+    },
+    {
+      "id": "economia-10-6",
+      "category": "economia",
+      "difficulty": 10,
+      "question": "O Paradoxo de Allais viola qual teoria de decisão?",
+      "options": ["Viola utilidade esperada", "Aversão ao risco", "Preferências inconsistentes", "Heurística de decisão"],
+      "correctAnswer": "Viola utilidade esperada",
+      "explanation": "Maurice Allais (1953) demonstrou experimentalmente que pessoas violam sistematicamente os axiomas da Teoria da Utilidade Esperada de Von Neumann-Morgenstern, precursando a economia comportamental."
+    },
+    {
+      "id": "economia-10-7",
+      "category": "economia",
+      "difficulty": 10,
+      "question": "O que descreve a Hipótese de Mercados Adaptativos (AMH) de Andrew Lo?",
+      "options": ["Evolução dos mercados", "Eficiência variável", "Comportamento adaptativo", "Finanças comportamentais"],
+      "correctAnswer": "Evolução dos mercados",
+      "explanation": "Andrew Lo (2004) propôs a AMH como síntese evolucionária: eficiência dos mercados varia no tempo conforme agentes se adaptam ao ambiente, conciliando HME com finanças comportamentais."
+    },
+    {
+      "id": "economia-10-8",
+      "category": "economia",
+      "difficulty": 10,
+      "question": "O que modela o framework Ramsey-Cass-Koopmans?",
+      "options": ["Crescimento ótimo intertemporal", "Utilidade descontada", "Poupança ótima", "Modelo neoclássico"],
+      "correctAnswer": "Crescimento ótimo intertemporal",
+      "explanation": "O modelo Ramsey-Cass-Koopmans é o framework padrão de crescimento ótimo, em que famílias maximizam utilidade intertemporal com desconto temporal, derivando a regra de ouro do capital."
+    },
+    {
+      "id": "economia-10-9",
+      "category": "economia",
+      "difficulty": 10,
+      "question": "O que estabelece a teoria dos contratos incompletos de Grossman-Hart?",
+      "options": ["Propriedade e incentivos", "Integração vertical", "Contratos e poder", "Governança corporativa"],
+      "correctAnswer": "Propriedade e incentivos",
+      "explanation": "Grossman e Hart (1986) mostraram que quando contratos são incompletos, a alocação de direitos de propriedade determina os incentivos para investimento e a fronteira eficiente das empresas."
+    },
+    {
+      "id": "economia-10-10",
+      "category": "economia",
+      "difficulty": 10,
+      "question": "O que estabelece o Teorema de Coase sobre externalidades?",
+      "options": ["Direitos e eficiência", "Externalidades internalizadas", "Negociação privada resolve", "Falha de mercado"],
+      "correctAnswer": "Direitos e eficiência",
+      "explanation": "O Teorema de Coase (1960) afirma que quando direitos de propriedade são bem definidos e custos de transação são zero, a negociação privada leva a resultados eficientes independentemente de quem detém os direitos."
     }
   ]
 }

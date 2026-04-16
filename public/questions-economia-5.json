@@ -4,15 +4,91 @@
       "id": "economia-5-1",
       "category": "economia",
       "difficulty": 5,
-      "question": "O que é a 'Lei de Oferta e Demanda'?",
-      "options": [
-        "Quanto maior o preço, maior a demanda",
-        "Preço de equilíbrio é aquele onde quantidade ofertada iguala quantidade demandada",
-        "O governo deve controlar preços para garantir equilíbrio",
-        "A produção sempre supera o consumo em economias livres"
-      ],
-      "correctAnswer": "Preço de equilíbrio é aquele onde quantidade ofertada iguala quantidade demandada",
-      "explanation": "Em mercados competitivos, o preço se estabiliza onde oferta e demanda se cruzam, chamado de equilíbrio de mercado."
+      "question": "Qual é o índice oficial de inflação no Brasil?",
+      "options": ["IPCA", "IGP-M", "INPC", "IPC-BR"],
+      "correctAnswer": "IPCA",
+      "explanation": "O IPCA (Índice Nacional de Preços ao Consumidor Amplo) é o índice oficial de inflação do Brasil, medido pelo IBGE e usado pelo Banco Central como meta de inflação."
+    },
+    {
+      "id": "economia-5-2",
+      "category": "economia",
+      "difficulty": 5,
+      "question": "O que significa a sigla PIB?",
+      "options": ["Produto Interno Bruto", "Produto Industrial Bruto", "Programa de Investimento", "Plano de Incentivo"],
+      "correctAnswer": "Produto Interno Bruto",
+      "explanation": "PIB (Produto Interno Bruto) é o valor total de todos os bens e serviços produzidos em um país durante um período, sendo o principal indicador do tamanho de uma economia."
+    },
+    {
+      "id": "economia-5-3",
+      "category": "economia",
+      "difficulty": 5,
+      "question": "Qual órgão define a taxa Selic no Brasil?",
+      "options": ["Copom", "CMN", "Bacen", "CVM"],
+      "correctAnswer": "Copom",
+      "explanation": "O Copom (Comitê de Política Monetária) é o órgão do Banco Central do Brasil responsável por definir a meta da taxa Selic, a taxa básica de juros da economia."
+    },
+    {
+      "id": "economia-5-4",
+      "category": "economia",
+      "difficulty": 5,
+      "question": "O que é inflação?",
+      "options": ["Alta de preços", "Queda de preços", "Falta de moeda", "Alta do dólar"],
+      "correctAnswer": "Alta de preços",
+      "explanation": "Inflação é o aumento generalizado e contínuo dos preços de bens e serviços, que reduz o poder de compra da moeda ao longo do tempo."
+    },
+    {
+      "id": "economia-5-5",
+      "category": "economia",
+      "difficulty": 5,
+      "question": "O que é recessão econômica?",
+      "options": ["Queda do PIB", "Alta de preços", "Falta de emprego", "Alta do dólar"],
+      "correctAnswer": "Queda do PIB",
+      "explanation": "Recessão é definida tecnicamente como dois trimestres consecutivos de queda no PIB, indicando uma contração da atividade econômica."
+    },
+    {
+      "id": "economia-5-6",
+      "category": "economia",
+      "difficulty": 5,
+      "question": "O que é deflação?",
+      "options": ["Queda de preços", "Alta de preços", "Excesso de moeda", "Falta de produtos"],
+      "correctAnswer": "Queda de preços",
+      "explanation": "Deflação é a queda generalizada e contínua dos preços. Embora pareça benéfica, pode sinalizar fraqueza econômica e desincentivar consumo e investimento."
+    },
+    {
+      "id": "economia-5-7",
+      "category": "economia",
+      "difficulty": 5,
+      "question": "Onde são negociadas ações de empresas no Brasil?",
+      "options": ["B3", "Banco Central", "Tesouro Nacional", "Receita Federal"],
+      "correctAnswer": "B3",
+      "explanation": "A B3 (Brasil, Bolsa, Balcão) é a bolsa de valores oficial do Brasil, resultado da fusão da BM&FBovespa com a Cetip em 2017."
+    },
+    {
+      "id": "economia-5-8",
+      "category": "economia",
+      "difficulty": 5,
+      "question": "O que é a taxa de câmbio?",
+      "options": ["Preço da moeda", "Taxa de juros", "Índice de inflação", "Custo operacional"],
+      "correctAnswer": "Preço da moeda",
+      "explanation": "A taxa de câmbio é o preço de uma moeda estrangeira em relação à moeda nacional, determinando quanto de uma moeda é necessário para comprar outra."
+    },
+    {
+      "id": "economia-5-9",
+      "category": "economia",
+      "difficulty": 5,
+      "question": "O que é superávit fiscal?",
+      "options": ["Receita supera gastos", "Gastos superam receita", "Equilíbrio fiscal", "Déficit crescente"],
+      "correctAnswer": "Receita supera gastos",
+      "explanation": "Superávit fiscal ocorre quando a arrecadação do governo é maior que seus gastos, gerando uma folga nas contas públicas."
+    },
+    {
+      "id": "economia-5-10",
+      "category": "economia",
+      "difficulty": 5,
+      "question": "Qual é a taxa básica de juros da economia brasileira?",
+      "options": ["Selic", "CDI", "Euribor", "Libor"],
+      "correctAnswer": "Selic",
+      "explanation": "A Selic (Sistema Especial de Liquidação e de Custódia) é a taxa básica de juros da economia brasileira e o principal instrumento de política monetária do Banco Central."
     }
   ]
 }

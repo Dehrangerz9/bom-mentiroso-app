@@ -1921,90 +1921,6 @@
       "explanation": "O Cotopaxi (5.897 m) no Equador é considerado um dos vulcões ativos mais altos do mundo, com sua última grande erupção em 2015."
     },
     {
-      "id": "geografia-5-1",
-      "category": "geografia",
-      "difficulty": 5,
-      "question": "Qual é o país com maior número de fusos horários no mundo?",
-      "options": [
-        "Rússia",
-        "Estados Unidos",
-        "China",
-        "França"
-      ],
-      "correctAnswer": "França",
-      "explanation": "Contando territórios ultramarinos, a França possui 12 fusos horários, mais do que qualquer outro país."
-    },
-    {
-      "id": "geografia-6-1",
-      "category": "geografia",
-      "difficulty": 6,
-      "question": "Qual é o estreito que separa a Europa da África?",
-      "options": [
-        "Bósforo",
-        "Messina",
-        "Gibraltar",
-        "Ormuz"
-      ],
-      "correctAnswer": "Gibraltar",
-      "explanation": "O Estreito de Gibraltar separa a Espanha (Europa) de Marrocos (África) com apenas 14 km em seu ponto mais estreito."
-    },
-    {
-      "id": "geografia-7-1",
-      "category": "geografia",
-      "difficulty": 7,
-      "question": "Qual arquipélago do Pacífico pertence ao Equador e foi fundamental para as teorias de Darwin?",
-      "options": [
-        "Galápagos",
-        "Havaí",
-        "Maldivas",
-        "Marquesas"
-      ],
-      "correctAnswer": "Galápagos",
-      "explanation": "As ilhas Galápagos inspiraram Darwin a formular a teoria da evolução por seleção natural após sua visita em 1835."
-    },
-    {
-      "id": "geografia-8-1",
-      "category": "geografia",
-      "difficulty": 8,
-      "question": "Qual país possui a maior parte da Floresta Amazônica, mas qual é o segundo maior detentor?",
-      "options": [
-        "Colômbia",
-        "Venezuela",
-        "Peru",
-        "Bolívia"
-      ],
-      "correctAnswer": "Peru",
-      "explanation": "O Brasil detém cerca de 60% da Amazônia; o Peru vem em segundo com aproximadamente 13%."
-    },
-    {
-      "id": "geografia-9-1",
-      "category": "geografia",
-      "difficulty": 9,
-      "question": "A linha de datação internacional (180° de longitude) contorna quais ilhas para evitar que um país fique em dois dias diferentes?",
-      "options": [
-        "Ilhas Fiji",
-        "Ilhas Tonga",
-        "Ilhas Kiribati",
-        "Samoa Americana"
-      ],
-      "correctAnswer": "Ilhas Kiribati",
-      "explanation": "As Ilhas Kiribati fazem a linha de datação fazer um desvio para leste de modo que todo o arquipélago fique no mesmo dia calendário."
-    },
-    {
-      "id": "geografia-10-1",
-      "category": "geografia",
-      "difficulty": 10,
-      "question": "Qual é o nome do fenômeno geográfico onde o Rio Casiquiare conecta naturalmente as bacias do Orinoco e do Amazonas, formando um bifurcação fluvial rara?",
-      "options": [
-        "Anastomose do Casiquiare",
-        "Canal do Casiquiare",
-        "Bifurcação do Orinoco",
-        "Delta interior do Casiquiare"
-      ],
-      "correctAnswer": "Canal do Casiquiare",
-      "explanation": "O Canal do Casiquiare é uma das poucas bifurcações naturais do mundo que conecta duas grandes bacias hidrográficas distintas, na Venezuela."
-    },
-    {
       "id": "historia-geral-1-1",
       "category": "historia-geral",
       "difficulty": 1,
@@ -7717,90 +7633,6 @@
       "explanation": "Final Fantasy VII (1997, Square) é considerado um dos jogos de RPG mais influentes da história, apresentando Cloud, Aerith, Sephiroth e o vilão Shinra numa narrativa de ficção científica."
     },
     {
-      "id": "jogos-5-1",
-      "category": "jogos",
-      "difficulty": 5,
-      "question": "Qual jogo de estratégia em tempo real foi lançado pela Blizzard em 1998 e se tornou eSport dominante na Coreia do Sul?",
-      "options": [
-        "Warcraft II",
-        "Age of Empires II",
-        "StarCraft",
-        "Command & Conquer"
-      ],
-      "correctAnswer": "StarCraft",
-      "explanation": "StarCraft se tornou uma obsessão nacional na Coreia, com transmissões em TV aberta e jogadores profissionais tratados como estrelas."
-    },
-    {
-      "id": "jogos-6-1",
-      "category": "jogos",
-      "difficulty": 6,
-      "question": "Em Minecraft, qual é o nome do chefe final do jogo, encontrado na End dimension?",
-      "options": [
-        "Wither",
-        "Elder Guardian",
-        "Ender Dragon",
-        "Enderman"
-      ],
-      "correctAnswer": "Ender Dragon",
-      "explanation": "O Ender Dragon é o chefe final de Minecraft, encontrado na dimensão The End, e sua derrota é considerada o encerramento da progressão principal do jogo."
-    },
-    {
-      "id": "jogos-7-1",
-      "category": "jogos",
-      "difficulty": 7,
-      "question": "Qual foi o primeiro jogo a usar o sistema de 'bullet time' (tempo lento) como mecânica principal de ação?",
-      "options": [
-        "F.E.A.R.",
-        "The Matrix: Path of Neo",
-        "Max Payne",
-        "Stranglehold"
-      ],
-      "correctAnswer": "Max Payne",
-      "explanation": "Max Payne (2001) popularizou o 'bullet time' em jogos, inspirado no filme Matrix (1999), tornando-o mecânica central de ação."
-    },
-    {
-      "id": "jogos-8-1",
-      "category": "jogos",
-      "difficulty": 8,
-      "question": "Qual designer japonês criou os jogos Dark Souls e é conhecido por criar universos de lore denso comunicado principalmente pelo ambiente e descrições de itens?",
-      "options": [
-        "Shigeru Miyamoto",
-        "Hideo Kojima",
-        "Hidetaka Miyazaki",
-        "Yoko Taro"
-      ],
-      "correctAnswer": "Hidetaka Miyazaki",
-      "explanation": "Miyazaki (FromSoftware) é criador de Demon's Souls, Dark Souls, Bloodborne, Sekiro e Elden Ring, revolucionando o design de jogos de ação RPG."
-    },
-    {
-      "id": "jogos-9-1",
-      "category": "jogos",
-      "difficulty": 9,
-      "question": "Qual é o nome do fenômeno em design de jogos descrito por Jenova Chen em sua tese de mestrado, que se refere à zona de equilíbrio entre ansiedade e tédio que mantém o jogador engajado?",
-      "options": [
-        "Core loop",
-        "Flow state",
-        "Feedback loop",
-        "Skinner Box"
-      ],
-      "correctAnswer": "Flow state",
-      "explanation": "Jenova Chen adaptou o conceito de 'flow' do psicólogo Mihaly Csikszentmihalyi para jogos: o estado ótimo de engajamento entre desafio e habilidade."
-    },
-    {
-      "id": "jogos-10-1",
-      "category": "jogos",
-      "difficulty": 10,
-      "question": "Qual é o termo técnico para o padrão de design de jogos onde recompensas são distribuídas em intervalos variáveis imprevisíveis, criando compulsão similar ao jogo de azar?",
-      "options": [
-        "Core gameplay loop",
-        "Variable ratio reinforcement schedule",
-        "Gacha mechanics",
-        "FOMO design"
-      ],
-      "correctAnswer": "Variable ratio reinforcement schedule",
-      "explanation": "Derivado do condicionamento operante de B.F. Skinner, o Variable Ratio Reinforcement é o mecanismo psicológico por trás de loot boxes, sistemas gacha e slot machines."
-    },
-    {
       "id": "economia-1-1",
       "category": "economia",
       "difficulty": 1,
@@ -9087,6 +8919,1686 @@
       ],
       "correctAnswer": "O degelo libera metano (CH₄) de matéria orgânica previamente congelada, gás com potencial de aquecimento 80× superior ao CO₂ em 20 anos",
       "explanation": "O permafrost ártico contém ~1.500 Gt de carbono. Seu degelo libera metano via decomposição anaeróbica, criando um loop de amplificação: mais calor → mais degelo → mais CH₄ → mais calor."
+    },
+    {
+      "id": "geografia-5-1",
+      "category": "geografia",
+      "difficulty": 5,
+      "question": "Qual é o país com maior número de fusos horários no mundo?",
+      "options": [
+        "Rússia",
+        "Estados Unidos",
+        "China",
+        "França"
+      ],
+      "correctAnswer": "França",
+      "explanation": "Contando territórios ultramarinos, a França possui 12 fusos horários, mais do que qualquer outro país."
+    },
+    {
+      "id": "geografia-5-2",
+      "category": "geografia",
+      "difficulty": 5,
+      "question": "Qual é o maior deserto quente do mundo?",
+      "options": [
+        "Deserto do Gobi",
+        "Deserto do Atacama",
+        "Deserto do Saara",
+        "Deserto Arábico"
+      ],
+      "correctAnswer": "Deserto do Saara",
+      "explanation": "O Saara, na África, cobre cerca de 9,2 milhões de km², sendo o maior deserto quente do mundo. O Antártico é o maior deserto total, mas é frio."
+    },
+    {
+      "id": "geografia-5-3",
+      "category": "geografia",
+      "difficulty": 5,
+      "question": "Qual rio é considerado o mais longo do mundo?",
+      "options": [
+        "Rio Amazonas",
+        "Rio Nilo",
+        "Rio Yangtzé",
+        "Rio Mississipi"
+      ],
+      "correctAnswer": "Rio Nilo",
+      "explanation": "O Rio Nilo, com aproximadamente 6.650 km, é geralmente apontado como o mais longo do mundo, embora estudos recentes questionem se o Amazonas poderia superá-lo."
+    },
+    {
+      "id": "geografia-5-4",
+      "category": "geografia",
+      "difficulty": 5,
+      "question": "Qual é o menor país do mundo, tanto em área quanto em população?",
+      "options": [
+        "Mônaco",
+        "San Marino",
+        "Liechtenstein",
+        "Vaticano"
+      ],
+      "correctAnswer": "Vaticano",
+      "explanation": "O Vaticano ocupa apenas 0,44 km² dentro de Roma e tem menos de 1.000 residentes permanentes; é o menor Estado soberano do mundo."
+    },
+    {
+      "id": "geografia-5-5",
+      "category": "geografia",
+      "difficulty": 5,
+      "question": "Qual é a capital do Canadá?",
+      "options": [
+        "Toronto",
+        "Vancouver",
+        "Montreal",
+        "Ottawa"
+      ],
+      "correctAnswer": "Ottawa",
+      "explanation": "Ottawa, na província de Ontário, é a capital federal do Canadá desde 1857; Toronto é a maior cidade, mas não é a capital."
+    },
+    {
+      "id": "geografia-5-6",
+      "category": "geografia",
+      "difficulty": 5,
+      "question": "Qual continente é o mais populoso do mundo?",
+      "options": [
+        "Europa",
+        "África",
+        "Ásia",
+        "Américas"
+      ],
+      "correctAnswer": "Ásia",
+      "explanation": "A Ásia abriga mais de 4,7 bilhões de pessoas, cerca de 60% da população mundial; China e Índia juntas têm mais de 2,8 bilhões de habitantes."
+    },
+    {
+      "id": "geografia-5-7",
+      "category": "geografia",
+      "difficulty": 5,
+      "question": "Qual é o maior oceano do mundo?",
+      "options": [
+        "Oceano Atlântico",
+        "Oceano Índico",
+        "Oceano Pacífico",
+        "Oceano Ártico"
+      ],
+      "correctAnswer": "Oceano Pacífico",
+      "explanation": "O Oceano Pacífico cobre cerca de 165 milhões de km², mais do que toda a massa terrestre continental combinada, sendo o maior e mais profundo oceano do mundo."
+    },
+    {
+      "id": "geografia-5-8",
+      "category": "geografia",
+      "difficulty": 5,
+      "question": "Qual cadeia de montanhas forma a fronteira natural entre a Europa e a Ásia?",
+      "options": [
+        "Alpes",
+        "Cárpatos",
+        "Urais",
+        "Cáucaso"
+      ],
+      "correctAnswer": "Urais",
+      "explanation": "Os Montes Urais, com 2.500 km de extensão, são convencionalmente considerados o limite leste da Europa; o pico mais alto é o Naro com 1.895 metros."
+    },
+    {
+      "id": "geografia-5-9",
+      "category": "geografia",
+      "difficulty": 5,
+      "question": "Qual é o país da América do Sul que faz fronteira com todos os outros países do continente, exceto Chile e Equador?",
+      "options": [
+        "Argentina",
+        "Brasil",
+        "Colômbia",
+        "Peru"
+      ],
+      "correctAnswer": "Brasil",
+      "explanation": "O Brasil faz fronteira com 10 dos 12 países sul-americanos; apenas Chile e Equador não fazem fronteira direta com o território brasileiro."
+    },
+    {
+      "id": "geografia-5-10",
+      "category": "geografia",
+      "difficulty": 5,
+      "question": "Em qual continente está localizado o Egito?",
+      "options": [
+        "Ásia",
+        "Europa",
+        "África",
+        "Oriente Médio"
+      ],
+      "correctAnswer": "África",
+      "explanation": "O Egito está localizado no nordeste da África, embora a Península do Sinai seja geograficamente parte da Ásia; o país é transcontinental mas majoritariamente africano."
+    },
+    {
+      "id": "geografia-6-1",
+      "category": "geografia",
+      "difficulty": 6,
+      "question": "Qual é o estreito que separa a Europa da África?",
+      "options": [
+        "Bósforo",
+        "Messina",
+        "Gibraltar",
+        "Ormuz"
+      ],
+      "correctAnswer": "Gibraltar",
+      "explanation": "O Estreito de Gibraltar separa a Espanha (Europa) de Marrocos (África) com apenas 14 km em seu ponto mais estreito."
+    },
+    {
+      "id": "geografia-6-2",
+      "category": "geografia",
+      "difficulty": 6,
+      "question": "Qual é a cadeia montanhosa que forma a fronteira natural entre a Europa e a Ásia?",
+      "options": [
+        "Alpes",
+        "Cárpatos",
+        "Urais",
+        "Cáucaso"
+      ],
+      "correctAnswer": "Urais",
+      "explanation": "Os Montes Urais estendem-se por cerca de 2.500 km no sentido norte-sul e são tradicionalmente considerados a fronteira geográfica entre a Europa e a Ásia."
+    },
+    {
+      "id": "geografia-6-3",
+      "category": "geografia",
+      "difficulty": 6,
+      "question": "Qual é o maior lago de água doce do mundo em área superficial?",
+      "options": [
+        "Lago Superior",
+        "Lago Vitória",
+        "Lago Huron",
+        "Lago Baikal"
+      ],
+      "correctAnswer": "Lago Superior",
+      "explanation": "O Lago Superior, localizado na fronteira entre os Estados Unidos e o Canadá, possui área de aproximadamente 82.100 km², sendo o maior lago de água doce do mundo em superfície."
+    },
+    {
+      "id": "geografia-6-4",
+      "category": "geografia",
+      "difficulty": 6,
+      "question": "Em qual continente está localizado o deserto do Saara?",
+      "options": [
+        "Ásia",
+        "América do Sul",
+        "Austrália",
+        "África"
+      ],
+      "correctAnswer": "África",
+      "explanation": "O Saara, com cerca de 9,2 milhões de km², é o maior deserto quente do mundo e está localizado no norte do continente africano."
+    },
+    {
+      "id": "geografia-6-5",
+      "category": "geografia",
+      "difficulty": 6,
+      "question": "Qual é a capital da Austrália?",
+      "options": [
+        "Sydney",
+        "Melbourne",
+        "Brisbane",
+        "Camberra"
+      ],
+      "correctAnswer": "Camberra",
+      "explanation": "Camberra é a capital federal da Austrália. Foi construída especialmente para ser a capital, pois Sydney e Melbourne disputavam esse posto e a solução foi criar uma nova cidade entre as duas."
+    },
+    {
+      "id": "geografia-6-6",
+      "category": "geografia",
+      "difficulty": 6,
+      "question": "Qual rio é considerado o mais longo do mundo?",
+      "options": [
+        "Amazonas",
+        "Yangtzé",
+        "Mississippi",
+        "Nilo"
+      ],
+      "correctAnswer": "Nilo",
+      "explanation": "O Nilo, com aproximadamente 6.650 km de extensão, é geralmente reconhecido como o rio mais longo do mundo, percorrendo o nordeste africano até o Mar Mediterrâneo."
+    },
+    {
+      "id": "geografia-6-7",
+      "category": "geografia",
+      "difficulty": 6,
+      "question": "Qual país possui a maior costa litorânea do mundo?",
+      "options": [
+        "Rússia",
+        "Noruega",
+        "Canadá",
+        "Indonésia"
+      ],
+      "correctAnswer": "Canadá",
+      "explanation": "O Canadá possui a maior linha costeira do mundo, com aproximadamente 202.080 km, incluindo ilhas e recortes do litoral continental."
+    },
+    {
+      "id": "geografia-6-8",
+      "category": "geografia",
+      "difficulty": 6,
+      "question": "Qual é o nome do ponto mais profundo dos oceanos do mundo?",
+      "options": [
+        "Fossa de Tonga",
+        "Fossa de Porto Rico",
+        "Fossa das Marianas",
+        "Fossa de Java"
+      ],
+      "correctAnswer": "Fossa das Marianas",
+      "explanation": "A Fossa das Marianas, no Oceano Pacífico, é o ponto mais profundo conhecido da Terra. Seu ponto mais fundo, o Abismo Challenger, atinge cerca de 11.034 metros abaixo do nível do mar."
+    },
+    {
+      "id": "geografia-6-9",
+      "category": "geografia",
+      "difficulty": 6,
+      "question": "Qual é o país com o maior número de fusos horários do mundo?",
+      "options": [
+        "Rússia",
+        "Estados Unidos",
+        "China",
+        "França"
+      ],
+      "correctAnswer": "França",
+      "explanation": "A França, incluindo seus territórios ultramarinos espalhados pelo mundo, abrange 12 fusos horários, o maior número de qualquer país no planeta."
+    },
+    {
+      "id": "geografia-6-10",
+      "category": "geografia",
+      "difficulty": 6,
+      "question": "Qual é o menor país do mundo em área territorial?",
+      "options": [
+        "Mônaco",
+        "San Marino",
+        "Liechtenstein",
+        "Vaticano"
+      ],
+      "correctAnswer": "Vaticano",
+      "explanation": "O Vaticano, com apenas 0,44 km², é o menor país do mundo em área, situado dentro de Roma, Itália, e sede da Igreja Católica."
+    },
+    {
+      "id": "geografia-7-1",
+      "category": "geografia",
+      "difficulty": 7,
+      "question": "Qual arquipélago do Pacífico pertence ao Equador e foi fundamental para as teorias de Darwin?",
+      "options": [
+        "Galápagos",
+        "Havaí",
+        "Maldivas",
+        "Marquesas"
+      ],
+      "correctAnswer": "Galápagos",
+      "explanation": "As ilhas Galápagos inspiraram Darwin a formular a teoria da evolução por seleção natural após sua visita em 1835."
+    },
+    {
+      "id": "geografia-7-2",
+      "category": "geografia",
+      "difficulty": 7,
+      "question": "Qual é o nome do planalto que ocupa grande parte da África Oriental, onde estão localizados países como Quênia e Tanzânia?",
+      "options": [
+        "Planalto do Congo",
+        "Planalto Etíope",
+        "Planalto da África Oriental",
+        "Planalto do Karoo"
+      ],
+      "correctAnswer": "Planalto da África Oriental",
+      "explanation": "O Planalto da África Oriental é uma vasta região elevada que abriga o Vale do Rift, grandes lagos como o Vitória e o Tanganica, e o pico mais alto da África, o Kilimanjaro."
+    },
+    {
+      "id": "geografia-7-3",
+      "category": "geografia",
+      "difficulty": 7,
+      "question": "Qual é o nome do mar interior da Ásia Central que encolheu drasticamente por desvio de rios para irrigação?",
+      "options": [
+        "Mar Cáspio",
+        "Mar de Aral",
+        "Lago Balcaш",
+        "Mar Negro"
+      ],
+      "correctAnswer": "Mar de Aral",
+      "explanation": "O Mar de Aral, outrora o quarto maior lago do mundo, perdeu mais de 90% de seu volume desde a década de 1960 devido ao desvio dos rios Amu Dária e Sir Dária para irrigação soviética."
+    },
+    {
+      "id": "geografia-7-4",
+      "category": "geografia",
+      "difficulty": 7,
+      "question": "Qual é o nome do fenômeno geográfico que ocorre quando um rio não consegue alcançar o mar e desaparece no interior de um continente?",
+      "options": [
+        "Rio efêmero",
+        "Rio endorreico",
+        "Rio intermitente",
+        "Rio exorreico"
+      ],
+      "correctAnswer": "Rio endorreico",
+      "explanation": "Rios endorreicos drenam para bacias fechadas sem saída para o oceano. Exemplos incluem o Rio Jordão, que deságua no Mar Morto, e rios que alimentam o Mar de Aral."
+    },
+    {
+      "id": "geografia-7-5",
+      "category": "geografia",
+      "difficulty": 7,
+      "question": "Qual é a capital da Nova Zelândia?",
+      "options": [
+        "Auckland",
+        "Christchurch",
+        "Dunedin",
+        "Wellington"
+      ],
+      "correctAnswer": "Wellington",
+      "explanation": "Wellington é a capital da Nova Zelândia, localizada na extremidade sul da Ilha Norte. É frequentemente chamada de 'cidade mais ventosa do mundo'."
+    },
+    {
+      "id": "geografia-7-6",
+      "category": "geografia",
+      "difficulty": 7,
+      "question": "Qual é o nome do deserto frio que cobre grande parte da Mongólia e do norte da China?",
+      "options": [
+        "Karakum",
+        "Taklamakã",
+        "Gobi",
+        "Kyzylkum"
+      ],
+      "correctAnswer": "Gobi",
+      "explanation": "O Deserto de Gobi é o maior deserto da Ásia, com cerca de 1,3 milhão de km². É um deserto frio, com temperaturas que podem chegar a -40°C no inverno."
+    },
+    {
+      "id": "geografia-7-7",
+      "category": "geografia",
+      "difficulty": 7,
+      "question": "Qual país da América do Sul não tem saída para o mar?",
+      "options": [
+        "Paraguai",
+        "Peru",
+        "Equador",
+        "Colômbia"
+      ],
+      "correctAnswer": "Paraguai",
+      "explanation": "O Paraguai e a Bolívia são os únicos países da América do Sul sem litoral. O Paraguai é completamente cercado por Brasil, Argentina e Bolívia."
+    },
+    {
+      "id": "geografia-7-8",
+      "category": "geografia",
+      "difficulty": 7,
+      "question": "Qual é o nome do estreito que separa a Ilha Grande da Bretanha da França?",
+      "options": [
+        "Estreito de Dover",
+        "Estreito de Gibraltar",
+        "Canal de Bristol",
+        "Estreito de Calais"
+      ],
+      "correctAnswer": "Estreito de Dover",
+      "explanation": "O Estreito de Dover separa a Inglaterra da França com apenas 33 km em seu ponto mais estreito. Por ele passa o Eurotúnel, ligação ferroviária subaquática entre os dois países."
+    },
+    {
+      "id": "geografia-7-9",
+      "category": "geografia",
+      "difficulty": 7,
+      "question": "Em qual país está localizada a Capadócia, famosa pelas suas formações rochosas vulcânicas e cidades subterrâneas?",
+      "options": [
+        "Grécia",
+        "Irã",
+        "Turquia",
+        "Síria"
+      ],
+      "correctAnswer": "Turquia",
+      "explanation": "A Capadócia está localizada na região central da Turquia. Suas chaminés de fadas e cidades escavadas na rocha vulcânica são Património Mundial da UNESCO."
+    },
+    {
+      "id": "geografia-7-10",
+      "category": "geografia",
+      "difficulty": 7,
+      "question": "Qual é o nome do maior arquipélago do mundo em número de ilhas?",
+      "options": [
+        "Filipinas",
+        "Japão",
+        "Maldivas",
+        "Indonésia"
+      ],
+      "correctAnswer": "Indonésia",
+      "explanation": "A Indonésia é o maior arquipélago do mundo, composto por mais de 17.000 ilhas, das quais cerca de 6.000 são habitadas. É também o quarto país mais populoso do mundo."
+    },
+    {
+      "id": "geografia-8-1",
+      "category": "geografia",
+      "difficulty": 8,
+      "question": "Qual país possui a maior parte da Floresta Amazônica, mas qual é o segundo maior detentor?",
+      "options": [
+        "Colômbia",
+        "Venezuela",
+        "Peru",
+        "Bolívia"
+      ],
+      "correctAnswer": "Peru",
+      "explanation": "O Brasil detém cerca de 60% da Amazônia; o Peru vem em segundo com aproximadamente 13%."
+    },
+    {
+      "id": "geografia-8-2",
+      "category": "geografia",
+      "difficulty": 8,
+      "question": "Qual é o nome da corrente oceânica fria que corre ao longo da costa oeste da América do Sul?",
+      "options": [
+        "Corrente do Brasil",
+        "Corrente de Humboldt",
+        "Corrente do Golfo",
+        "Corrente de Benguela"
+      ],
+      "correctAnswer": "Corrente de Humboldt",
+      "explanation": "A Corrente de Humboldt, também chamada de Corrente do Peru, é uma corrente oceânica fria que flui ao longo da costa oeste da América do Sul. Ela influencia o clima da região e é uma das mais ricas em biodiversidade marinha do mundo."
+    },
+    {
+      "id": "geografia-8-3",
+      "category": "geografia",
+      "difficulty": 8,
+      "question": "Qual é o nome do processo geológico que descreve o movimento das placas tectônicas ao longo do tempo geológico?",
+      "options": [
+        "Erosão continental",
+        "Vulcanismo",
+        "Deriva continental",
+        "Subsidência"
+      ],
+      "correctAnswer": "Deriva continental",
+      "explanation": "A teoria da deriva continental, proposta por Alfred Wegener em 1912, descreve como os continentes se moveram ao longo de milhões de anos a partir de um supercontinente chamado Pangeia."
+    },
+    {
+      "id": "geografia-8-4",
+      "category": "geografia",
+      "difficulty": 8,
+      "question": "Qual é o nome do lago mais profundo do mundo?",
+      "options": [
+        "Lago Tanganica",
+        "Lago Baikal",
+        "Lago Superior",
+        "Lago Cáspio"
+      ],
+      "correctAnswer": "Lago Baikal",
+      "explanation": "O Lago Baikal, na Sibéria, é o lago mais profundo do mundo com 1.642 metros de profundidade máxima. Contém cerca de 20% da água doce superficial não congelada do planeta."
+    },
+    {
+      "id": "geografia-8-5",
+      "category": "geografia",
+      "difficulty": 8,
+      "question": "Qual é o nome da região geográfica que inclui os países escandinavos e é conhecida pelos fiordes?",
+      "options": [
+        "Península Ibérica",
+        "Península Balcânica",
+        "Península Escandinava",
+        "Península da Jutlândia"
+      ],
+      "correctAnswer": "Península Escandinava",
+      "explanation": "A Península Escandinava abriga a Noruega e a Suécia. A Noruega é famosa pelos seus fiordes, vales profundos criados pela erosão glacial e inundados pelo mar após o degelo."
+    },
+    {
+      "id": "geografia-8-6",
+      "category": "geografia",
+      "difficulty": 8,
+      "question": "Qual é o nome do fenômeno climático causado pelo aquecimento anormal das águas do Pacífico Equatorial?",
+      "options": [
+        "La Niña",
+        "Monção",
+        "El Niño",
+        "Dipolo do Índico"
+      ],
+      "correctAnswer": "El Niño",
+      "explanation": "El Niño é o aquecimento anormal das águas superficiais do Pacífico equatorial central e oriental, que altera padrões climáticos globais, causando secas em algumas regiões e chuvas intensas em outras."
+    },
+    {
+      "id": "geografia-8-7",
+      "category": "geografia",
+      "difficulty": 8,
+      "question": "Em qual país está localizado o Lago Titicaca, o lago navegável mais alto do mundo?",
+      "options": [
+        "Chile e Argentina",
+        "Peru e Bolívia",
+        "Equador e Peru",
+        "Colômbia e Venezuela"
+      ],
+      "correctAnswer": "Peru e Bolívia",
+      "explanation": "O Lago Titicaca fica a 3.812 metros de altitude na fronteira entre Peru e Bolívia. Com cerca de 8.372 km², é o maior lago da América do Sul e o lago navegável mais alto do mundo."
+    },
+    {
+      "id": "geografia-8-8",
+      "category": "geografia",
+      "difficulty": 8,
+      "question": "Qual é o nome do maior deserto frio do mundo?",
+      "options": [
+        "Ártico",
+        "Gobi",
+        "Patagônia",
+        "Antártica"
+      ],
+      "correctAnswer": "Antártica",
+      "explanation": "A Antártica é classificada como o maior deserto do mundo (14 milhões de km²), pois recebe menos de 200 mm de precipitação por ano. É também o continente mais frio, seco e ventoso da Terra."
+    },
+    {
+      "id": "geografia-8-9",
+      "category": "geografia",
+      "difficulty": 8,
+      "question": "Qual é o nome do território disputado entre Argentina e Reino Unido, que foi palco de uma guerra em 1982?",
+      "options": [
+        "Ilhas Geórgia do Sul",
+        "Ilhas Malvinas",
+        "Ilha Tristão da Cunha",
+        "Ilhas Sandwich do Sul"
+      ],
+      "correctAnswer": "Ilhas Malvinas",
+      "explanation": "As Ilhas Malvinas (Falkland Islands para os britânicos) foram palco de um conflito armado em 1982 entre Argentina e Reino Unido. Atualmente são administradas pelo Reino Unido, mas a Argentina continua reivindicando sua soberania."
+    },
+    {
+      "id": "geografia-8-10",
+      "category": "geografia",
+      "difficulty": 8,
+      "question": "Qual é o nome da cadeia de vulcões que circunda o Oceano Pacífico, conhecida pela intensa atividade sísmica?",
+      "options": [
+        "Arco Alpino-Himalaia",
+        "Cinturão de Fogo do Pacífico",
+        "Dorsal Meso-Atlântica",
+        "Arco das Antilhas"
+      ],
+      "correctAnswer": "Cinturão de Fogo do Pacífico",
+      "explanation": "O Cinturão de Fogo do Pacífico é uma área de intensa atividade vulcânica e sísmica que percorre as margens do Oceano Pacífico. Concentra cerca de 75% dos vulcões ativos do mundo e 90% dos terremotos."
+    },
+    {
+      "id": "geografia-9-1",
+      "category": "geografia",
+      "difficulty": 9,
+      "question": "A linha de datação internacional (180° de longitude) contorna quais ilhas para evitar que um país fique em dois dias diferentes?",
+      "options": [
+        "Ilhas Fiji",
+        "Ilhas Tonga",
+        "Ilhas Kiribati",
+        "Samoa Americana"
+      ],
+      "correctAnswer": "Ilhas Kiribati",
+      "explanation": "As Ilhas Kiribati fazem a linha de datação fazer um desvio para leste de modo que todo o arquipélago fique no mesmo dia calendário."
+    },
+    {
+      "id": "geografia-9-2",
+      "category": "geografia",
+      "difficulty": 9,
+      "question": "Qual é o nome do processo pelo qual uma placa tectônica mergulha sob outra no manto terrestre?",
+      "options": [
+        "Rifteamento",
+        "Obducção",
+        "Subducção",
+        "Transcorrência"
+      ],
+      "correctAnswer": "Subducção",
+      "explanation": "A subducção ocorre quando uma placa tectônica densa (geralmente oceânica) mergulha sob outra placa menos densa. Esse processo é responsável pela formação de fossos oceânicos, cadeias de vulcões e terremotos profundos."
+    },
+    {
+      "id": "geografia-9-3",
+      "category": "geografia",
+      "difficulty": 9,
+      "question": "Qual é o nome do fenômeno pelo qual a Terra gira levemente sobre seu eixo em ciclos de aproximadamente 26.000 anos?",
+      "options": [
+        "Nutação",
+        "Precessão dos equinócios",
+        "Obliquidade da eclíptica",
+        "Excentricidade orbital"
+      ],
+      "correctAnswer": "Precessão dos equinócios",
+      "explanation": "A precessão dos equinócios é o movimento lento e cônico do eixo de rotação da Terra, completando um ciclo em cerca de 25.772 anos. Esse fenômeno afeta a posição das estrelas no céu ao longo dos milênios e está ligado aos ciclos de Milankovitch que influenciam o clima terrestre."
+    },
+    {
+      "id": "geografia-9-4",
+      "category": "geografia",
+      "difficulty": 9,
+      "question": "Qual é o nome da região geomorfológica brasileira que corresponde ao escudo cristalino mais antigo da América do Sul?",
+      "options": [
+        "Planalto Sedimentar Paraná",
+        "Planalto Atlântico",
+        "Escudo das Guianas",
+        "Cráton Amazônico"
+      ],
+      "correctAnswer": "Cráton Amazônico",
+      "explanation": "O Cráton Amazônico é uma das unidades geológicas mais antigas e estáveis da América do Sul, formado há mais de 1,8 bilhão de anos. Constitui o embasamento cristalino sobre o qual se formou a bacia sedimentar amazônica."
+    },
+    {
+      "id": "geografia-9-5",
+      "category": "geografia",
+      "difficulty": 9,
+      "question": "Qual é o termo geográfico para a zona de transição entre dois biomas ou ecossistemas distintos?",
+      "options": [
+        "Ecótono",
+        "Enclaves",
+        "Biócoro",
+        "Fitofisionomia"
+      ],
+      "correctAnswer": "Ecótono",
+      "explanation": "O ecótono é a zona de transição entre dois ecossistemas ou biomas adjacentes, onde há influência de ambos os ambientes. Essa região tende a apresentar maior biodiversidade do que as áreas centrais de cada bioma isolado."
+    },
+    {
+      "id": "geografia-9-6",
+      "category": "geografia",
+      "difficulty": 9,
+      "question": "Qual é o nome do corredor de baixa pressão atmosférica que se forma sobre o Brasil Central no verão austral, transportando umidade da Amazônia para o Sudeste?",
+      "options": [
+        "Frente Polar Atlântica",
+        "Zona de Convergência Intertropical",
+        "Zona de Convergência do Atlântico Sul",
+        "Alta Subtropical do Atlântico Sul"
+      ],
+      "correctAnswer": "Zona de Convergência do Atlântico Sul",
+      "explanation": "A Zona de Convergência do Atlântico Sul (ZCAS) é uma banda de nebulosidade e precipitação que se forma durante o verão austral, estendendo-se do Brasil Central ao Oceano Atlântico. É responsável por grande parte das chuvas de verão no Sudeste brasileiro."
+    },
+    {
+      "id": "geografia-9-7",
+      "category": "geografia",
+      "difficulty": 9,
+      "question": "Qual é o nome da teoria que explica a formação das ilhas vulcânicas oceânicas por meio de um ponto quente fixo no manto terrestre?",
+      "options": [
+        "Teoria das Placas Tectônicas",
+        "Teoria do Rifteamento",
+        "Teoria dos Pontos Quentes (Hot Spots)",
+        "Teoria da Subducção Intraplaca"
+      ],
+      "correctAnswer": "Teoria dos Pontos Quentes (Hot Spots)",
+      "explanation": "A teoria dos pontos quentes, associada ao geofísico J. Tuzo Wilson, explica como cadeias de ilhas vulcânicas, como o Havaí, são formadas quando uma placa tectônica se move sobre um ponto quente fixo no manto. As ilhas mais antigas ficam progressivamente mais distantes do ponto ativo."
+    },
+    {
+      "id": "geografia-9-8",
+      "category": "geografia",
+      "difficulty": 9,
+      "question": "Qual é o nome do fenômeno costeiro que ocorre quando a diferença de temperatura entre o continente e o oceano provoca ventos locais cíclicos diurnos?",
+      "options": [
+        "Alísios",
+        "Brisa marítima e terrestre",
+        "Monções costeiras",
+        "Vento catabático"
+      ],
+      "correctAnswer": "Brisa marítima e terrestre",
+      "explanation": "A brisa marítima ocorre durante o dia, quando o continente aquece mais rapidamente que o oceano, fazendo o ar quente subir sobre a terra e o ar frio do mar entrar para substituí-lo. À noite, o processo se inverte com a brisa terrestre, pois o continente esfria mais rápido que o mar."
+    },
+    {
+      "id": "geografia-9-9",
+      "category": "geografia",
+      "difficulty": 9,
+      "question": "Qual é o nome do tipo de clima caracterizado por verões quentes e secos e invernos amenos e chuvosos, típico das regiões em torno do Mar Mediterrâneo?",
+      "options": [
+        "Clima Oceânico",
+        "Clima Semiárido",
+        "Clima Mediterrâneo",
+        "Clima Continental"
+      ],
+      "correctAnswer": "Clima Mediterrâneo",
+      "explanation": "O clima mediterrâneo é caracterizado por verões quentes e secos e invernos amenos e úmidos. Ocorre em faixas entre 30° e 45° de latitude, em ambos os hemisférios, como na bacia do Mediterrâneo, Califórnia, Chile central, sudoeste australiano e Cabo Ocidental sul-africano."
+    },
+    {
+      "id": "geografia-9-10",
+      "category": "geografia",
+      "difficulty": 9,
+      "question": "Qual é o nome do processo de formação de solos em regiões tropicais úmidas, onde a intensa lixiviação remove nutrientes solúveis, deixando óxidos de ferro e alumínio?",
+      "options": [
+        "Podzolização",
+        "Salinização",
+        "Laterização",
+        "Gleização"
+      ],
+      "correctAnswer": "Laterização",
+      "explanation": "A laterização é o processo de formação de solos lateríticos (latossolos) em regiões tropicais com alta temperatura e precipitação. A intensa lixiviação remove sílica e nutrientes, concentrando óxidos de ferro e alumínio que dão a coloração vermelha ou amarela característica desses solos."
+    },
+    {
+      "id": "geografia-10-1",
+      "category": "geografia",
+      "difficulty": 10,
+      "question": "Qual é o nome do fenômeno geográfico onde o Rio Casiquiare conecta naturalmente as bacias do Orinoco e do Amazonas, formando uma bifurcação fluvial rara?",
+      "options": [
+        "Anastomose do Casiquiare",
+        "Canal do Casiquiare",
+        "Bifurcação do Orinoco",
+        "Delta interior do Casiquiare"
+      ],
+      "correctAnswer": "Canal do Casiquiare",
+      "explanation": "O Canal do Casiquiare é uma das poucas bifurcações naturais do mundo que conecta duas grandes bacias hidrográficas distintas, na Venezuela."
+    },
+    {
+      "id": "geografia-10-2",
+      "category": "geografia",
+      "difficulty": 10,
+      "question": "Qual é o nome do efeito pelo qual a rotação da Terra deflete ventos e correntes oceânicas para a direita no hemisfério norte e para a esquerda no sul?",
+      "options": [
+        "Efeito Bernoulli",
+        "Efeito Coriolis",
+        "Efeito Foehn",
+        "Efeito Venturi"
+      ],
+      "correctAnswer": "Efeito Coriolis",
+      "explanation": "O efeito Coriolis, descrito pelo matemático Gaspard-Gustave de Coriolis em 1835, é uma força aparente resultante da rotação da Terra. Ele deflete objetos em movimento para a direita no hemisfério norte e para a esquerda no sul, sendo fundamental na formação de ciclones, anticiclones e giros oceânicos."
+    },
+    {
+      "id": "geografia-10-3",
+      "category": "geografia",
+      "difficulty": 10,
+      "question": "Qual é o nome do supercontinente que existiu há cerca de 300 milhões de anos e precedeu a separação dos continentes atuais?",
+      "options": [
+        "Rodínia",
+        "Laurásia",
+        "Gondwana",
+        "Pangeia"
+      ],
+      "correctAnswer": "Pangeia",
+      "explanation": "Pangeia foi o supercontinente que reuniu praticamente toda a massa continental terrestre há cerca de 300 milhões de anos. Começou a se fragmentar há aproximadamente 175 milhões de anos, primeiro dividindo-se em Laurásia (norte) e Gondwana (sul), que por sua vez deram origem aos continentes atuais."
+    },
+    {
+      "id": "geografia-10-4",
+      "category": "geografia",
+      "difficulty": 10,
+      "question": "Qual é o nome do tipo de fronteira tectônica onde duas placas se afastam, criando nova crosta oceânica?",
+      "options": [
+        "Fronteira convergente",
+        "Fronteira transformante",
+        "Fronteira divergente",
+        "Fronteira de subducção"
+      ],
+      "correctAnswer": "Fronteira divergente",
+      "explanation": "Nas fronteiras divergentes, duas placas tectônicas se afastam uma da outra, permitindo que magma suba do manto e forme nova crosta oceânica. O exemplo mais claro é a Dorsal Meso-Atlântica, onde a América do Sul e a África se afastam cerca de 2,5 cm por ano."
+    },
+    {
+      "id": "geografia-10-5",
+      "category": "geografia",
+      "difficulty": 10,
+      "question": "Qual é o nome do ciclo hidrológico de longo prazo em que a água oceânica circula pelas profundezas dos oceanos impulsionada por diferenças de temperatura e salinidade?",
+      "options": [
+        "Corrente de superfície",
+        "Termohalina",
+        "Circulação de Walker",
+        "Giro Subtropical"
+      ],
+      "correctAnswer": "Termohalina",
+      "explanation": "A circulação termohalina, também chamada de 'esteira oceânica global', é acionada por diferenças de densidade causadas por temperatura (termo) e salinidade (halina). Ela distribui calor e nutrientes por todos os oceanos, influenciando profundamente o clima global, e completa um ciclo em cerca de 1.000 anos."
+    },
+    {
+      "id": "geografia-10-6",
+      "category": "geografia",
+      "difficulty": 10,
+      "question": "Qual é o nome do índice que mede a vulnerabilidade de um país às mudanças climáticas considerando sua exposição, sensibilidade e capacidade adaptativa?",
+      "options": [
+        "Índice de Desenvolvimento Humano",
+        "Índice de Vulnerabilidade Climática",
+        "Índice de Risco Climático Global",
+        "Índice de Pegada Ecológica"
+      ],
+      "correctAnswer": "Índice de Vulnerabilidade Climática",
+      "explanation": "O Índice de Vulnerabilidade Climática avalia o quanto um país está exposto a eventos climáticos extremos, sua sensibilidade aos impactos e sua capacidade de se adaptar. Países do Sul Global, especialmente pequenos estados insulares e nações africanas, geralmente apresentam os índices de maior vulnerabilidade apesar de contribuírem menos para as emissões globais."
+    },
+    {
+      "id": "geografia-10-7",
+      "category": "geografia",
+      "difficulty": 10,
+      "question": "Qual é o nome do processo geomorfológico que descreve o recuo progressivo de uma escarpa rochosa por erosão diferencial, comum em regiões semiáridas?",
+      "options": [
+        "Pediplanação",
+        "Inselberg",
+        "Aplainamento lateral",
+        "Recuo paralelo de vertentes"
+      ],
+      "correctAnswer": "Recuo paralelo de vertentes",
+      "explanation": "O recuo paralelo de vertentes é um processo geomorfológico descrito por Walter Penck, em que escarpas rochosas recuam mantendo sua inclinação original, ao contrário do aplainamento progressivo de Davis. Esse processo é dominante em climas áridos e semiáridos, onde a erosão lateral supera a aprofundamento vertical, resultando em pedimentos e inselbergs residuais."
+    },
+    {
+      "id": "geografia-10-8",
+      "category": "geografia",
+      "difficulty": 10,
+      "question": "Qual é o nome do fenômeno pelo qual ventos úmidos perdem umidade ao subir uma montanha e chegam ao outro lado quentes e secos?",
+      "options": [
+        "Efeito Orográfico",
+        "Efeito Foehn",
+        "Inversão Térmica",
+        "Efeito de Sombra de Chuva"
+      ],
+      "correctAnswer": "Efeito Foehn",
+      "explanation": "O efeito Foehn ocorre quando massas de ar úmido sobem uma encosta de montanha, perdem umidade por precipitação orográfica e descem o outro lado mais quentes e secos. Esse fenômeno ocorre nos Alpes, nos Andes (Zonda na Argentina) e nas Montanhas Rochosas (Chinook), podendo elevar a temperatura em 10°C ou mais em poucas horas."
+    },
+    {
+      "id": "geografia-10-9",
+      "category": "geografia",
+      "difficulty": 10,
+      "question": "Qual é o nome da zona de convergência atmosférica que circunda o globo próxima ao equador, onde ventos alísios dos dois hemisférios se encontram?",
+      "options": [
+        "Frente Polar",
+        "Jet Stream Equatorial",
+        "Zona de Convergência Intertropical",
+        "Célula de Ferrel"
+      ],
+      "correctAnswer": "Zona de Convergência Intertropical",
+      "explanation": "A Zona de Convergência Intertropical (ZCIT) é uma faixa de baixa pressão onde os ventos alísios do hemisfério norte e do sul convergem. Caracteriza-se por grande nebulosidade e precipitações intensas. Sua posição migra sazonalmente seguindo a zona de maior insolação, influenciando o regime de chuvas de países tropicais como o Brasil."
+    },
+    {
+      "id": "geografia-10-10",
+      "category": "geografia",
+      "difficulty": 10,
+      "question": "Qual é o nome da teoria geomorfológica que propõe que paisagens evoluem por ciclos de erosão, passando por estágios de juventude, maturidade e senilidade?",
+      "options": [
+        "Teoria do Equilíbrio Dinâmico",
+        "Teoria da Pediplanação",
+        "Ciclo Geográfico de Davis",
+        "Teoria da Tectônica de Placas"
+      ],
+      "correctAnswer": "Ciclo Geográfico de Davis",
+      "explanation": "O Ciclo Geográfico, ou Ciclo de Erosão de William Morris Davis, propõe que relevos passam por estágios evolutivos: juventude (rios encaixados, vales em V), maturidade (planaltos dissecados, interflúvios arredondados) e senilidade (peneplanície com monadnocks residuais). Embora criticado por simplificar demais a realidade, o modelo foi fundamental para o desenvolvimento da geomorfologia moderna."
+    },
+    {
+      "id": "jogos-5-1",
+      "category": "jogos",
+      "difficulty": 5,
+      "question": "Qual jogo de estratégia em tempo real foi lançado pela Blizzard em 1998 e se tornou eSport dominante na Coreia do Sul?",
+      "options": [
+        "Warcraft II",
+        "Age of Empires II",
+        "StarCraft",
+        "Command & Conquer"
+      ],
+      "correctAnswer": "StarCraft",
+      "explanation": "StarCraft se tornou uma obsessão nacional na Coreia, com transmissões em TV aberta e jogadores profissionais tratados como estrelas."
+    },
+    {
+      "id": "jogos-5-2",
+      "category": "jogos",
+      "difficulty": 5,
+      "question": "Em qual console da Sony foi lançado o jogo The Last of Us originalmente?",
+      "options": [
+        "PlayStation 2",
+        "PlayStation 3",
+        "PlayStation 4",
+        "PlayStation 5"
+      ],
+      "correctAnswer": "PlayStation 3",
+      "explanation": "The Last of Us foi lançado em junho de 2013 exclusivamente para PlayStation 3, desenvolvido pela Naughty Dog. O jogo foi aclamado pela crítica e ganhou inúmeros prêmios de jogo do ano."
+    },
+    {
+      "id": "jogos-5-3",
+      "category": "jogos",
+      "difficulty": 5,
+      "question": "Qual jogo de batalha royale da Epic Games foi lançado em 2017 e se tornou um fenômeno global?",
+      "options": [
+        "PUBG",
+        "Apex Legends",
+        "Fortnite",
+        "Warzone"
+      ],
+      "correctAnswer": "Fortnite",
+      "explanation": "Fortnite Battle Royale foi lançado em setembro de 2017 e rapidamente se tornou um fenômeno cultural, com mais de 350 milhões de jogadores cadastrados e shows virtuais com artistas como Travis Scott e Ariana Grande."
+    },
+    {
+      "id": "jogos-5-4",
+      "category": "jogos",
+      "difficulty": 5,
+      "question": "Qual empresa criou o console Nintendo Switch?",
+      "options": [
+        "Sony",
+        "Microsoft",
+        "Sega",
+        "Nintendo"
+      ],
+      "correctAnswer": "Nintendo",
+      "explanation": "O Nintendo Switch foi lançado pela Nintendo em março de 2017. É um console híbrido que pode ser usado tanto como portátil quanto conectado à TV, tornando-se um dos consoles mais vendidos da história."
+    },
+    {
+      "id": "jogos-5-5",
+      "category": "jogos",
+      "difficulty": 5,
+      "question": "Qual jogo de luta da Capcom apresenta personagens como Ryu, Ken e Chun-Li?",
+      "options": [
+        "Mortal Kombat",
+        "Tekken",
+        "Street Fighter",
+        "King of Fighters"
+      ],
+      "correctAnswer": "Street Fighter",
+      "explanation": "Street Fighter, lançado pela Capcom em 1987, é uma das franquias de jogos de luta mais icônicas da história. Ryu, Ken e Chun-Li são alguns de seus personagens mais reconhecidos mundialmente."
+    },
+    {
+      "id": "jogos-5-6",
+      "category": "jogos",
+      "difficulty": 5,
+      "question": "Qual é o nome do monstro final de The Legend of Zelda: Ocarina of Time?",
+      "options": [
+        "Majora",
+        "Vaati",
+        "Ganon",
+        "Bowser"
+      ],
+      "correctAnswer": "Ganon",
+      "explanation": "Ganon é a forma de monstro que Ganondorf assume no confronto final de Ocarina of Time. É o vilão recorrente da franquia Zelda, também conhecido como o Rei do Mal."
+    },
+    {
+      "id": "jogos-5-7",
+      "category": "jogos",
+      "difficulty": 5,
+      "question": "Qual é o nome do jogo da Rockstar Games que se passa em uma cidade fictícia chamada Los Santos?",
+      "options": [
+        "Red Dead Redemption",
+        "Bully",
+        "Midnight Club",
+        "GTA V"
+      ],
+      "correctAnswer": "GTA V",
+      "explanation": "Grand Theft Auto V, lançado em 2013, se passa em Los Santos, uma cidade fictícia inspirada em Los Angeles. É um dos jogos mais vendidos da história, com mais de 185 milhões de cópias comercializadas."
+    },
+    {
+      "id": "jogos-5-8",
+      "category": "jogos",
+      "difficulty": 5,
+      "question": "Qual franquia de jogos da Activision apresenta batalhas entre soldados em guerras históricas e modernas?",
+      "options": [
+        "Battlefield",
+        "Medal of Honor",
+        "Call of Duty",
+        "Halo"
+      ],
+      "correctAnswer": "Call of Duty",
+      "explanation": "Call of Duty é uma franquia de jogos de tiro em primeira pessoa da Activision, lançada em 2003. A série já vendeu mais de 400 milhões de cópias e inclui títulos ambientados na Segunda Guerra Mundial e em cenários futuristas."
+    },
+    {
+      "id": "jogos-5-9",
+      "category": "jogos",
+      "difficulty": 5,
+      "question": "Em qual jogo o jogador desperta como um sobrevivente em uma ilha repleta de dinossauros e precisa sobreviver coletando recursos?",
+      "options": [
+        "Rust",
+        "The Forest",
+        "ARK: Survival Evolved",
+        "Subnautica"
+      ],
+      "correctAnswer": "ARK: Survival Evolved",
+      "explanation": "ARK: Survival Evolved, lançado em 2015 pela Studio Wildcard, é um jogo de sobrevivência onde o jogador acorda em uma ilha misteriosa habitada por dinossauros e criaturas pré-históricas, podendo inclusive domesticá-las."
+    },
+    {
+      "id": "jogos-5-10",
+      "category": "jogos",
+      "difficulty": 5,
+      "question": "Qual jogo da Blizzard coloca heróis de diferentes universos em batalhas de tiro em primeira pessoa por equipes?",
+      "options": [
+        "Team Fortress 2",
+        "Valorant",
+        "Overwatch",
+        "Paladins"
+      ],
+      "correctAnswer": "Overwatch",
+      "explanation": "Overwatch, lançado pela Blizzard em 2016, é um jogo de tiro em equipe com heróis de habilidades únicas. Tornou-se rapidamente um dos jogos mais jogados do mundo e deu origem a uma liga de eSports profissional."
+    },
+    {
+      "id": "jogos-6-1",
+      "category": "jogos",
+      "difficulty": 6,
+      "question": "Em Minecraft, qual é o nome do chefe final do jogo, encontrado na End dimension?",
+      "options": [
+        "Wither",
+        "Elder Guardian",
+        "Ender Dragon",
+        "Enderman"
+      ],
+      "correctAnswer": "Ender Dragon",
+      "explanation": "O Ender Dragon é o chefe final de Minecraft, encontrado na dimensão The End, e sua derrota é considerada o encerramento da progressão principal do jogo."
+    },
+    {
+      "id": "jogos-6-2",
+      "category": "jogos",
+      "difficulty": 6,
+      "question": "Qual jogo da FromSoftware, lançado em 2022, foi desenvolvido em parceria com o escritor George R. R. Martin?",
+      "options": [
+        "Dark Souls III",
+        "Sekiro",
+        "Elden Ring",
+        "Bloodborne"
+      ],
+      "correctAnswer": "Elden Ring",
+      "explanation": "Elden Ring foi lançado em fevereiro de 2022 em colaboração com George R. R. Martin. O jogo ganhou o prêmio de Jogo do Ano no The Game Awards 2022."
+    },
+    {
+      "id": "jogos-6-3",
+      "category": "jogos",
+      "difficulty": 6,
+      "question": "Qual é o nome do protagonista da franquia God of War?",
+      "options": [
+        "Dante",
+        "Kratos",
+        "Leonidas",
+        "Achilles"
+      ],
+      "correctAnswer": "Kratos",
+      "explanation": "Kratos é o protagonista da franquia God of War. Originalmente um guerreiro espartano, ele mata deuses gregos e, mais tarde, aventura-se pela mitologia nórdica ao lado de seu filho Atreus."
+    },
+    {
+      "id": "jogos-6-4",
+      "category": "jogos",
+      "difficulty": 6,
+      "question": "Qual é o nome do tipo de jogo onde o mapa é gerado aleatoriamente a cada partida e a morte é permanente?",
+      "options": [
+        "Sandbox",
+        "Metroidvania",
+        "Roguelike",
+        "Soulslike"
+      ],
+      "correctAnswer": "Roguelike",
+      "explanation": "Roguelikes são caracterizados por mapas gerados proceduralmente e morte permanente (permadeath). O nome vem do jogo Rogue (1980). Exemplos populares: Hades, Dead Cells e The Binding of Isaac."
+    },
+    {
+      "id": "jogos-6-5",
+      "category": "jogos",
+      "difficulty": 6,
+      "question": "Qual jogo da CD Projekt Red, lançado em 2015, é considerado um dos maiores RPGs de mundo aberto da história?",
+      "options": [
+        "Dragon Age: Inquisition",
+        "The Witcher 3: Wild Hunt",
+        "Skyrim",
+        "Cyberpunk 2077"
+      ],
+      "correctAnswer": "The Witcher 3: Wild Hunt",
+      "explanation": "The Witcher 3: Wild Hunt, lançado em maio de 2015, ganhou mais de 800 prêmios incluindo numerosos Game of the Year, e possui um dos mundos abertos mais ricos e detalhados dos videogames."
+    },
+    {
+      "id": "jogos-6-6",
+      "category": "jogos",
+      "difficulty": 6,
+      "question": "Qual é o nome do personagem principal da franquia Halo da Microsoft?",
+      "options": [
+        "Noble Six",
+        "The Arbiter",
+        "Master Chief",
+        "Buck"
+      ],
+      "correctAnswer": "Master Chief",
+      "explanation": "Master Chief, cujo nome completo é John-117, é o protagonista da franquia Halo. É um supersoldado Spartan-II que luta contra os Covenant e o Flood."
+    },
+    {
+      "id": "jogos-6-7",
+      "category": "jogos",
+      "difficulty": 6,
+      "question": "Qual jogo de RPG tático da Square Enix apresenta batalhas em grade isométrica com personagens como Cloud e Terra?",
+      "options": [
+        "Final Fantasy Tactics",
+        "Tactics Ogre",
+        "Fire Emblem",
+        "Disgaea"
+      ],
+      "correctAnswer": "Final Fantasy Tactics",
+      "explanation": "Final Fantasy Tactics, lançado em 1997, é um RPG tático com batalhas em grade isométrica ambientado em Ivalice. É considerado um dos melhores RPGs táticos já feitos, com uma narrativa política rica e complexo sistema de classes."
+    },
+    {
+      "id": "jogos-6-8",
+      "category": "jogos",
+      "difficulty": 6,
+      "question": "Qual jogo indie de 2016 da ConcernedApe coloca o jogador para administrar uma fazenda herdada do avô?",
+      "options": [
+        "Harvest Moon",
+        "My Time at Portia",
+        "Stardew Valley",
+        "Farm Together"
+      ],
+      "correctAnswer": "Stardew Valley",
+      "explanation": "Stardew Valley foi criado por um único desenvolvedor, Eric Barone (ConcernedApe), ao longo de quatro anos. Lançado em 2016, o jogo vendeu mais de 20 milhões de cópias e revitalizou o gênero de simulação de fazenda."
+    },
+    {
+      "id": "jogos-6-9",
+      "category": "jogos",
+      "difficulty": 6,
+      "question": "Qual jogo de terror de sobrevivência da Capcom se passa em uma mansão infestada de zumbis e foi lançado originalmente em 1996?",
+      "options": [
+        "Silent Hill",
+        "Alone in the Dark",
+        "Resident Evil",
+        "Dino Crisis"
+      ],
+      "correctAnswer": "Resident Evil",
+      "explanation": "Resident Evil (Biohazard no Japão), lançado em 1996 pela Capcom, é o fundador do gênero survival horror moderno. A franquia já vendeu mais de 140 milhões de cópias e gerou filmes, séries e animações."
+    },
+    {
+      "id": "jogos-6-10",
+      "category": "jogos",
+      "difficulty": 6,
+      "question": "Qual jogo de plataforma da Naughty Dog, lançado em 1996 para PlayStation, apresenta um marsupial como protagonista?",
+      "options": [
+        "Spyro the Dragon",
+        "Banjo-Kazooie",
+        "Crash Bandicoot",
+        "Jak and Daxter"
+      ],
+      "correctAnswer": "Crash Bandicoot",
+      "explanation": "Crash Bandicoot foi lançado em 1996 para PlayStation pela Naughty Dog. O marsupial laranja tornou-se mascote não oficial do console e protagonizou uma das trilogias de plataforma mais amadas dos anos 90."
+    },
+    {
+      "id": "jogos-7-1",
+      "category": "jogos",
+      "difficulty": 7,
+      "question": "Qual foi o primeiro jogo a usar o sistema de 'bullet time' como mecânica principal de ação?",
+      "options": [
+        "F.E.A.R.",
+        "The Matrix: Path of Neo",
+        "Max Payne",
+        "Stranglehold"
+      ],
+      "correctAnswer": "Max Payne",
+      "explanation": "Max Payne (2001) popularizou o 'bullet time' em jogos, inspirado no filme Matrix (1999), tornando-o mecânica central de ação."
+    },
+    {
+      "id": "jogos-7-2",
+      "category": "jogos",
+      "difficulty": 7,
+      "question": "Qual jogo da Valve popularizou o modelo de distribuição digital de jogos para PC?",
+      "options": [
+        "Battle.net",
+        "Origin",
+        "Steam",
+        "GOG"
+      ],
+      "correctAnswer": "Steam",
+      "explanation": "A Steam, lançada pela Valve em 2003, revolucionou a distribuição de jogos para PC. Hoje conta com mais de 50.000 títulos e aproximadamente 132 milhões de usuários ativos mensais."
+    },
+    {
+      "id": "jogos-7-3",
+      "category": "jogos",
+      "difficulty": 7,
+      "question": "Qual jogo indie de 2014 apresenta cinco animatrônicos assustadores e um segurança noturno que precisa sobreviver monitorando câmeras?",
+      "options": [
+        "Poppy Playtime",
+        "Bendy and the Ink Machine",
+        "Five Nights at Freddy's",
+        "Slender: The Eight Pages"
+      ],
+      "correctAnswer": "Five Nights at Freddy's",
+      "explanation": "Five Nights at Freddy's (FNAF), criado por Scott Cawthon em 2014, é um jogo de terror em que o jogador monitora câmeras em uma pizzaria para sobreviver a animatrônicos que se movem à noite. A franquia cresceu para mais de 30 jogos e gerou um filme."
+    },
+    {
+      "id": "jogos-7-4",
+      "category": "jogos",
+      "difficulty": 7,
+      "question": "Qual jogo de 2001 da Rockstar Games ambientado em Vice City foi inspirado na Miami dos anos 80?",
+      "options": [
+        "GTA III",
+        "GTA: San Andreas",
+        "GTA: Vice City",
+        "Bully"
+      ],
+      "correctAnswer": "GTA: Vice City",
+      "explanation": "Grand Theft Auto: Vice City, lançado em 2002, é ambientado em Vice City, uma versão fictícia de Miami nos anos 80. Com trilha sonora icônica da época e protagonizado por Tommy Vercetti, tornou-se um dos jogos mais amados da franquia."
+    },
+    {
+      "id": "jogos-7-5",
+      "category": "jogos",
+      "difficulty": 7,
+      "question": "Qual é o nome do gênero de jogo onde o jogador monta um deck de cartas e enfrenta oponentes em batalhas estratégicas?",
+      "options": [
+        "MOBA",
+        "TCG (Trading Card Game)",
+        "Tower Defense",
+        "Auto Battler"
+      ],
+      "correctAnswer": "TCG (Trading Card Game)",
+      "explanation": "Os TCGs digitais (Trading Card Games) são jogos de estratégia baseados em construção de decks de cartas. Exemplos populares incluem Hearthstone, Magic: The Gathering Arena e Legends of Runeterra."
+    },
+    {
+      "id": "jogos-7-6",
+      "category": "jogos",
+      "difficulty": 7,
+      "question": "Qual jogo de plataforma da Nintendo, lançado em 1997 para N64, introduziu Mario no mundo 3D?",
+      "options": [
+        "Super Mario World",
+        "Super Mario 64",
+        "Super Mario Sunshine",
+        "Super Mario Odyssey"
+      ],
+      "correctAnswer": "Super Mario 64",
+      "explanation": "Super Mario 64, lançado em 1996 com o Nintendo 64, foi revolucionário ao levar Mario para o mundo tridimensional. O jogo definiu o padrão para jogos de plataforma 3D e é considerado um dos mais influentes da história."
+    },
+    {
+      "id": "jogos-7-7",
+      "category": "jogos",
+      "difficulty": 7,
+      "question": "Qual é o nome do torneio mundial anual de Dota 2, com o maior prêmio da história dos eSports?",
+      "options": [
+        "League World Championship",
+        "ESL One",
+        "The International",
+        "Majors"
+      ],
+      "correctAnswer": "The International",
+      "explanation": "The International é o campeonato mundial anual de Dota 2, organizado pela Valve. O prize pool é financiado pela comunidade através de um passe de batalha, tendo chegado a mais de 40 milhões de dólares, o maior da história dos eSports."
+    },
+    {
+      "id": "jogos-7-8",
+      "category": "jogos",
+      "difficulty": 7,
+      "question": "Qual jogo de exploração espacial da Hello Games, lançado em 2016, permite explorar quintilhões de planetas gerados proceduralmente?",
+      "options": [
+        "Elite Dangerous",
+        "Outer Wilds",
+        "Starfield",
+        "No Man's Sky"
+      ],
+      "correctAnswer": "No Man's Sky",
+      "explanation": "No Man's Sky, lançado pela Hello Games em 2016, usa geração procedural para criar mais de 18 quintilhões de planetas exploráveis. Apesar de um lançamento conturbado, o jogo foi completamente renovado com atualizações gratuitas e se tornou um exemplo de recuperação na indústria."
+    },
+    {
+      "id": "jogos-7-9",
+      "category": "jogos",
+      "difficulty": 7,
+      "question": "Qual franquia de jogos de corrida da Polyphony Digital é exclusiva da Sony e é conhecida pelo realismo extremo?",
+      "options": [
+        "Forza Motorsport",
+        "Need for Speed",
+        "Gran Turismo",
+        "Project Cars"
+      ],
+      "correctAnswer": "Gran Turismo",
+      "explanation": "Gran Turismo, criada por Kazunori Yamauchi e desenvolvida pela Polyphony Digital, é uma franquia exclusiva PlayStation lançada em 1997. É conhecida pelo realismo na simulação de carros e pistas licenciadas, sendo um dos jogos mais vendidos do PlayStation."
+    },
+    {
+      "id": "jogos-7-10",
+      "category": "jogos",
+      "difficulty": 7,
+      "question": "Qual jogo de terror psicológico da Konami, desenvolvido por Hideo Kojima, foi divulgado apenas como demo chamada 'P.T.'?",
+      "options": [
+        "Silent Hill 2",
+        "Silent Hills",
+        "Silent Hill: Downpour",
+        "Silent Hill: Homecoming"
+      ],
+      "correctAnswer": "Silent Hills",
+      "explanation": "Silent Hills foi um jogo cancelado da Konami que seria dirigido por Hideo Kojima e Guillermo del Toro com Norman Reedus como protagonista. A demo jogável 'P.T.' foi lançada em 2014 e criou enorme expectativa, mas o projeto foi cancelado em 2015 após a saída de Kojima da Konami."
+    },
+    {
+      "id": "jogos-8-1",
+      "category": "jogos",
+      "difficulty": 8,
+      "question": "Qual designer japonês criou os jogos Dark Souls e é conhecido por criar universos de lore denso comunicado principalmente pelo ambiente e descrições de itens?",
+      "options": [
+        "Shigeru Miyamoto",
+        "Hideo Kojima",
+        "Hidetaka Miyazaki",
+        "Yoko Taro"
+      ],
+      "correctAnswer": "Hidetaka Miyazaki",
+      "explanation": "Miyazaki (FromSoftware) é criador de Demon's Souls, Dark Souls, Bloodborne, Sekiro e Elden Ring, revolucionando o design de jogos de ação RPG."
+    },
+    {
+      "id": "jogos-8-2",
+      "category": "jogos",
+      "difficulty": 8,
+      "question": "Qual jogo indie de 2015 desenvolvido por Toby Fox subverte as expectativas do gênero RPG ao punir o jogador por matar inimigos?",
+      "options": [
+        "Omori",
+        "Deltarune",
+        "OneShot",
+        "Undertale"
+      ],
+      "correctAnswer": "Undertale",
+      "explanation": "Undertale, criado por Toby Fox em 2015, é um RPG onde o jogador pode completar o jogo sem matar ninguém. O jogo usa meta-narrativa e quarta parede para comentar sobre convenções do gênero, tornando-se um fenômeno cultural indie."
+    },
+    {
+      "id": "jogos-8-3",
+      "category": "jogos",
+      "difficulty": 8,
+      "question": "Qual é o nome do mecanismo de jogo que descreve o loop central de ação-recompensa que mantém o jogador engajado repetidamente?",
+      "options": [
+        "Skinner Box",
+        "Core gameplay loop",
+        "Feedback loop",
+        "Progression system"
+      ],
+      "correctAnswer": "Core gameplay loop",
+      "explanation": "O core gameplay loop é o ciclo fundamental de ações que o jogador repete em um jogo. Por exemplo, em um RPG: explorar, lutar, ganhar experiência, subir de nível e explorar novamente. Um loop bem projetado é o que torna um jogo viciante e satisfatório."
+    },
+    {
+      "id": "jogos-8-4",
+      "category": "jogos",
+      "difficulty": 8,
+      "question": "Qual empresa desenvolveu o motor gráfico Unreal Engine, amplamente utilizado por desenvolvedores de jogos em todo o mundo?",
+      "options": [
+        "Unity Technologies",
+        "Crytek",
+        "Epic Games",
+        "id Software"
+      ],
+      "correctAnswer": "Epic Games",
+      "explanation": "O Unreal Engine foi criado pela Epic Games e lançado em 1998. É um dos motores de jogo mais utilizados da indústria, usado em títulos como Fortnite, Gears of War e Borderlands. A versão 5, lançada em 2022, trouxe avanços significativos em renderização com as tecnologias Nanite e Lumen."
+    },
+    {
+      "id": "jogos-8-5",
+      "category": "jogos",
+      "difficulty": 8,
+      "question": "Qual é o nome do jogo da Naughty Dog que introduziu o personagem Nathan Drake em uma aventura de arqueologia de ação?",
+      "options": [
+        "Tomb Raider",
+        "Indiana Jones",
+        "Uncharted: Drake's Fortune",
+        "Prince of Persia"
+      ],
+      "correctAnswer": "Uncharted: Drake's Fortune",
+      "explanation": "Uncharted: Drake's Fortune foi lançado em 2007 para PlayStation 3 e apresentou Nathan Drake, descendente do explorador Francis Drake. O jogo foi aclamado por sua narrativa cinematográfica e deu início a uma das franquias mais queridas da Sony."
+    },
+    {
+      "id": "jogos-8-6",
+      "category": "jogos",
+      "difficulty": 8,
+      "question": "Qual jogo de estratégia em tempo real da Westwood Studios, lançado em 1992, definiu o gênero RTS moderno?",
+      "options": [
+        "Dune II",
+        "WarCraft",
+        "Command & Conquer",
+        "StarCraft"
+      ],
+      "correctAnswer": "Dune II",
+      "explanation": "Dune II: The Building of a Dynasty, lançado pela Westwood Studios em 1992, é amplamente considerado o pai dos jogos de estratégia em tempo real. Introduziu mecânicas fundamentais do gênero como coleta de recursos, construção de base e unidades com funções distintas."
+    },
+    {
+      "id": "jogos-8-7",
+      "category": "jogos",
+      "difficulty": 8,
+      "question": "Qual é o nome do subgênero de ação-aventura inspirado nos jogos Metroid e Castlevania, caracterizado por exploração não linear com habilidades progressivas?",
+      "options": [
+        "Soulslike",
+        "Roguelite",
+        "Metroidvania",
+        "Boomer Shooter"
+      ],
+      "correctAnswer": "Metroidvania",
+      "explanation": "Metroidvania é um subgênero que combina elementos dos jogos Metroid (Nintendo) e Castlevania: Symphony of the Night (Konami). Caracteriza-se por exploração não linear de um mapa interconectado, onde novas habilidades desbloqueiam acesso a áreas anteriormente inacessíveis. Exemplos modernos: Hollow Knight, Ori e Dead Cells."
+    },
+    {
+      "id": "jogos-8-8",
+      "category": "jogos",
+      "difficulty": 8,
+      "question": "Qual jogo de tabuleiro digital da Blizzard, lançado em 2014, é baseado no universo de Warcraft?",
+      "options": [
+        "Gwent",
+        "Legends of Runeterra",
+        "Hearthstone",
+        "Magic: The Gathering Arena"
+      ],
+      "correctAnswer": "Hearthstone",
+      "explanation": "Hearthstone: Heroes of Warcraft foi lançado pela Blizzard em 2014 e popularizou os jogos de cartas colecionáveis digitais. Com mais de 100 milhões de jogadores registrados, o jogo usa personagens e mecânicas do universo Warcraft."
+    },
+    {
+      "id": "jogos-8-9",
+      "category": "jogos",
+      "difficulty": 8,
+      "question": "Qual é o nome da técnica de design que coloca o jogador em situações onde percebe que poderia ter agido de outra forma, criando arrependimento e engajamento emocional?",
+      "options": [
+        "Ludonarrativa",
+        "Foreshadowing mecânico",
+        "Agência do jogador",
+        "Dissonância ludonarrativa"
+      ],
+      "correctAnswer": "Dissonância ludonarrativa",
+      "explanation": "A dissonância ludonarrativa ocorre quando a narrativa e a mecânica de um jogo contradizem uma à outra. O termo foi popularizado pelo crítico Clint Hocking ao analisar BioShock (2007), onde o jogo prega liberdade de escolha enquanto força o jogador a seguir ordens."
+    },
+    {
+      "id": "jogos-8-10",
+      "category": "jogos",
+      "difficulty": 8,
+      "question": "Qual jogo de simulação de gerenciamento de parque temático, lançado em 1999, permite construir e administrar atrações com física realista?",
+      "options": [
+        "Theme Hospital",
+        "SimPark",
+        "Planet Coaster",
+        "RollerCoaster Tycoon"
+      ],
+      "correctAnswer": "RollerCoaster Tycoon",
+      "explanation": "RollerCoaster Tycoon, desenvolvido quase inteiramente por Chris Sawyer e lançado em 1999, é um jogo de simulação de parques temáticos. O jogo foi notável pelo fato de Sawyer ter programado praticamente tudo em linguagem Assembly, uma façanha técnica raramente vista."
+    },
+    {
+      "id": "jogos-9-1",
+      "category": "jogos",
+      "difficulty": 9,
+      "question": "Qual é o nome do fenômeno em design de jogos descrito por Jenova Chen em sua tese de mestrado, que se refere à zona de equilíbrio entre ansiedade e tédio que mantém o jogador engajado?",
+      "options": [
+        "Core loop",
+        "Flow state",
+        "Feedback loop",
+        "Skinner Box"
+      ],
+      "correctAnswer": "Flow state",
+      "explanation": "Jenova Chen adaptou o conceito de 'flow' do psicólogo Mihaly Csikszentmihalyi para jogos: o estado ótimo de engajamento entre desafio e habilidade."
+    },
+    {
+      "id": "jogos-9-2",
+      "category": "jogos",
+      "difficulty": 9,
+      "question": "Qual é o nome do conceito de design onde o jogo ensina suas mecânicas implicitamente, sem tutoriais explícitos, através do ambiente e das consequências das ações?",
+      "options": [
+        "Onboarding progressivo",
+        "Environmental storytelling",
+        "Emergent gameplay",
+        "Affordance design"
+      ],
+      "correctAnswer": "Affordance design",
+      "explanation": "Affordance design, aplicado a jogos, refere-se ao design de elementos do mundo que comunicam intuitivamente sua função ao jogador sem instrução direta. Por exemplo, um cogumelo vermelho em Super Mario Bros. comunica visualmente que é colecionável. O conceito foi originalmente proposto pelo psicólogo James J. Gibson."
+    },
+    {
+      "id": "jogos-9-3",
+      "category": "jogos",
+      "difficulty": 9,
+      "question": "Qual designer foi responsável por criar a filosofia de 'Nintendo's Design Pillars', que prioriza a surpresa e a diversão sobre a fidelidade gráfica?",
+      "options": [
+        "Satoru Iwata",
+        "Gunpei Yokoi",
+        "Shigeru Miyamoto",
+        "Eiji Aonuma"
+      ],
+      "correctAnswer": "Shigeru Miyamoto",
+      "explanation": "Shigeru Miyamoto, criador de Mario, Zelda, Donkey Kong e Pikmin, é a mente por trás da filosofia de design da Nintendo que prioriza interatividade, surpresa e diversão acessível. Sua abordagem influenciou toda a indústria e estabeleceu o padrão para design de jogos centrado no jogador."
+    },
+    {
+      "id": "jogos-9-4",
+      "category": "jogos",
+      "difficulty": 9,
+      "question": "Qual é o nome do fenômeno onde o jogador descobre mecânicas não intencionadas pelo desenvolvedor que geram experiências únicas?",
+      "options": [
+        "Exploit",
+        "Glitch hunting",
+        "Emergent gameplay",
+        "Speedrunning"
+      ],
+      "correctAnswer": "Emergent gameplay",
+      "explanation": "Emergent gameplay refere-se a situações de jogo não planejadas que surgem da interação entre sistemas do jogo. Por exemplo, em The Legend of Zelda: Breath of the Wild, a física e a química do jogo permitem que jogadores criem soluções criativas não previstas pelos desenvolvedores."
+    },
+    {
+      "id": "jogos-9-5",
+      "category": "jogos",
+      "difficulty": 9,
+      "question": "Qual empresa japonesa desenvolveu o motor gráfico RE Engine, usado em Resident Evil Village, Devil May Cry 5 e Monster Hunter Rise?",
+      "options": [
+        "Konami",
+        "Square Enix",
+        "Capcom",
+        "Bandai Namco"
+      ],
+      "correctAnswer": "Capcom",
+      "explanation": "O RE Engine foi desenvolvido internamente pela Capcom e apresentado ao público com Resident Evil 7 (2017). O motor foi projetado para suportar realidade virtual e renderização fotorrealista, tornando-se a base de todos os grandes jogos da Capcom desde então."
+    },
+    {
+      "id": "jogos-9-6",
+      "category": "jogos",
+      "difficulty": 9,
+      "question": "Qual é o nome do conceito de narrativa interativa onde as escolhas do jogador moldam permanentemente o estado do mundo do jogo?",
+      "options": [
+        "Narrativa ramificada",
+        "Cutscene interativa",
+        "Narrativa procedural",
+        "Consequência narrativa"
+      ],
+      "correctAnswer": "Narrativa ramificada",
+      "explanation": "A narrativa ramificada é uma estrutura narrativa onde as decisões do jogador levam a diferentes caminhos e desfechos na história. Jogos como Detroit: Become Human, The Walking Dead (Telltale) e Disco Elysium são exemplos de narrativas ramificadas com alto grau de agência do jogador."
+    },
+    {
+      "id": "jogos-9-7",
+      "category": "jogos",
+      "difficulty": 9,
+      "question": "Qual é o nome do processo técnico onde múltiplos frames são renderizados e combinados para reduzir o aliasing visual em bordas de polígonos?",
+      "options": [
+        "Ray tracing",
+        "Anti-aliasing",
+        "Ambient occlusion",
+        "Tessellation"
+      ],
+      "correctAnswer": "Anti-aliasing",
+      "explanation": "Anti-aliasing é uma técnica de processamento gráfico que suaviza os degraus visíveis nas bordas de objetos 3D (serrilhado). As principais técnicas incluem MSAA, FXAA, TAA e DLSS (Deep Learning Super Sampling da NVIDIA), cada uma com diferentes compromissos entre qualidade e desempenho."
+    },
+    {
+      "id": "jogos-9-8",
+      "category": "jogos",
+      "difficulty": 9,
+      "question": "Qual jogo independente de 2018 da Supergiant Games é um roguelike baseado na mitologia grega onde o jogador faz o papel do filho de Hades tentando escapar do submundo?",
+      "options": [
+        "Pyre",
+        "Transistor",
+        "Bastion",
+        "Hades"
+      ],
+      "correctAnswer": "Hades",
+      "explanation": "Hades, desenvolvido pela Supergiant Games e lançado em 2020 após Early Access em 2018, é um roguelike de ação onde Zagreus, filho de Hades, tenta escapar do submundo. O jogo inovou ao integrar a narrativa diretamente ao loop de roguelike, com a história progredindo a cada tentativa de fuga."
+    },
+    {
+      "id": "jogos-9-9",
+      "category": "jogos",
+      "difficulty": 9,
+      "question": "Qual é o nome do sistema de inteligência artificial em jogos que controla o comportamento de grupos de inimigos de forma coordenada, simulando táticas militares?",
+      "options": [
+        "Pathfinding A*",
+        "Behavior Tree",
+        "Squad AI",
+        "Finite State Machine"
+      ],
+      "correctAnswer": "Behavior Tree",
+      "explanation": "Behavior Trees são estruturas de dados hierárquicas usadas para modelar comportamentos complexos de NPCs em jogos. Substituíram as máquinas de estado finito por serem mais flexíveis e escaláveis, e são amplamente utilizadas em jogos como Halo, Gears of War e The Last of Us para controlar o comportamento coordenado de inimigos."
+    },
+    {
+      "id": "jogos-9-10",
+      "category": "jogos",
+      "difficulty": 9,
+      "question": "Qual é o nome da prática de speedrunning onde o jogador completa um jogo do início ao fim sem morrer nenhuma vez?",
+      "options": [
+        "Any%",
+        "No major glitches",
+        "No hit run",
+        "Deathless run"
+      ],
+      "correctAnswer": "Deathless run",
+      "explanation": "Uma deathless run (ou no-death run) é uma categoria de speedrunning onde o jogador deve completar um jogo sem morrer nenhuma vez. É especialmente desafiadora em jogos como Dark Souls e Hollow Knight, onde a dificuldade é intensa. A categoria 'no hit' é ainda mais restrita, proibindo qualquer dano recebido."
+    },
+    {
+      "id": "jogos-10-1",
+      "category": "jogos",
+      "difficulty": 10,
+      "question": "Qual é o termo técnico para o padrão de design de jogos onde recompensas são distribuídas em intervalos variáveis imprevisíveis, criando compulsão similar ao jogo de azar?",
+      "options": [
+        "Core gameplay loop",
+        "Variable ratio reinforcement schedule",
+        "Gacha mechanics",
+        "FOMO design"
+      ],
+      "correctAnswer": "Variable ratio reinforcement schedule",
+      "explanation": "Derivado do condicionamento operante de B.F. Skinner, o Variable Ratio Reinforcement é o mecanismo psicológico por trás de loot boxes, sistemas gacha e slot machines."
+    },
+    {
+      "id": "jogos-10-2",
+      "category": "jogos",
+      "difficulty": 10,
+      "question": "Qual é o nome da técnica de renderização em tempo real que simula o comportamento físico da luz, incluindo reflexos, sombras e iluminação global?",
+      "options": [
+        "Rasterização",
+        "Baked lighting",
+        "Ray tracing",
+        "Ambient occlusion"
+      ],
+      "correctAnswer": "Ray tracing",
+      "explanation": "Ray tracing é uma técnica de renderização que simula o comportamento físico real da luz, traçando raios de luz a partir da câmera e calculando suas interações com superfícies. Embora existisse há décadas em renders off-line, só se tornou viável em tempo real com as GPUs RTX da NVIDIA em 2018 e as consoles PS5 e Xbox Series X em 2020."
+    },
+    {
+      "id": "jogos-10-3",
+      "category": "jogos",
+      "difficulty": 10,
+      "question": "Qual é o nome do conceito em teoria de jogos que descreve uma situação onde nenhum jogador pode melhorar seu resultado mudando unilateralmente sua estratégia?",
+      "options": [
+        "Teoria da utilidade",
+        "Dilema do prisioneiro",
+        "Equilíbrio de Nash",
+        "Estratégia dominante"
+      ],
+      "correctAnswer": "Equilíbrio de Nash",
+      "explanation": "O Equilíbrio de Nash, desenvolvido pelo matemático John Nash (retratado no filme 'Uma Mente Brilhante'), descreve um estado em um jogo estratégico onde nenhum participante pode se beneficiar mudando apenas sua própria estratégia. Este conceito é aplicado em design de jogos competitivos para entender e balancear meta-estratégias."
+    },
+    {
+      "id": "jogos-10-4",
+      "category": "jogos",
+      "difficulty": 10,
+      "question": "Qual é o nome do fenômeno em comunidades de speedrunning onde uma rota ou estratégia completamente nova reduz drasticamente o tempo de conclusão de um jogo?",
+      "options": [
+        "Out of bounds",
+        "Wrong warp",
+        "Game-breaking glitch",
+        "Route revolution"
+      ],
+      "correctAnswer": "Wrong warp",
+      "explanation": "Wrong warp é uma categoria de glitch em que o jogo carrega o jogador para uma área incorreta ao acionar uma transição de mapa sob condições específicas. Em Super Mario Bros., wrong warps permitem ir diretamente para o mundo 4 ou mundo 8 a partir do mundo 1, sendo essencial para o record mundial de speedrun."
+    },
+    {
+      "id": "jogos-10-5",
+      "category": "jogos",
+      "difficulty": 10,
+      "question": "Qual é o nome do algoritmo de busca de caminho mais utilizado em jogos para calcular a rota mais eficiente de um ponto a outro em um grafo?",
+      "options": [
+        "Algoritmo de Dijkstra",
+        "Busca em largura (BFS)",
+        "Algoritmo A*",
+        "Algoritmo de Bellman-Ford"
+      ],
+      "correctAnswer": "Algoritmo A*",
+      "explanation": "O algoritmo A* (A-star), desenvolvido por Peter Hart, Nils Nilsson e Bertram Raphael em 1968, é o algoritmo de pathfinding mais usado em jogos. Combina o custo real do caminho percorrido com uma heurística estimada da distância ao destino, sendo mais eficiente que Dijkstra por direcionar a busca na direção correta."
+    },
+    {
+      "id": "jogos-10-6",
+      "category": "jogos",
+      "difficulty": 10,
+      "question": "Qual é o nome da técnica de desenvolvimento de jogos onde a lógica do jogo é separada da renderização gráfica para garantir comportamento consistente independente da taxa de quadros?",
+      "options": [
+        "Double buffering",
+        "Fixed timestep",
+        "V-Sync",
+        "Frame pacing"
+      ],
+      "correctAnswer": "Fixed timestep",
+      "explanation": "Fixed timestep é uma técnica de game loop onde a lógica do jogo é atualizada em intervalos de tempo fixos e consistentes, independente da taxa de renderização. Isso garante que física, IA e mecânicas se comportem de forma idêntica em 30fps ou 144fps, evitando bugs dependentes de framerate."
+    },
+    {
+      "id": "jogos-10-7",
+      "category": "jogos",
+      "difficulty": 10,
+      "question": "Qual é o nome do padrão de design de software amplamente usado em engines de jogos, onde entidades são compostas de componentes independentes em vez de herança de classes?",
+      "options": [
+        "Model-View-Controller",
+        "Entity Component System",
+        "Observer Pattern",
+        "Singleton Pattern"
+      ],
+      "correctAnswer": "Entity Component System",
+      "explanation": "O Entity Component System (ECS) é uma arquitetura de software onde entidades são apenas IDs, componentes são dados puros sem comportamento, e sistemas processam entidades que possuem determinados componentes. Unity e Unreal Engine utilizam variações desse padrão, que é preferido por sua performance e flexibilidade em relação à herança tradicional."
+    },
+    {
+      "id": "jogos-10-8",
+      "category": "jogos",
+      "difficulty": 10,
+      "question": "Qual é o nome da técnica de compressão de textura especificamente projetada para uso em hardware gráfico de jogos, que mantém a qualidade visual com baixo custo de memória em GPU?",
+      "options": [
+        "PNG comprimido",
+        "JPEG progressivo",
+        "BCn (Block Compression)",
+        "WebP"
+      ],
+      "correctAnswer": "BCn (Block Compression)",
+      "explanation": "Block Compression (BCn) é uma família de formatos de compressão de textura para GPU (BC1 a BC7, também conhecidos como DXT/S3TC). Ao contrário de PNG e JPEG que são descomprimidos na CPU, texturas BCn permanecem comprimidas na VRAM e são decomp rimidas pelo hardware da GPU em tempo real, reduzindo drasticamente o consumo de memória de vídeo."
+    },
+    {
+      "id": "jogos-10-9",
+      "category": "jogos",
+      "difficulty": 10,
+      "question": "Qual é o nome do processo em que um jogo usa aprendizado de máquina para treinar agentes de IA que jogam contra si mesmos para melhorar?",
+      "options": [
+        "Supervised learning",
+        "Self-play reinforcement learning",
+        "Neural pathfinding",
+        "Procedural AI generation"
+      ],
+      "correctAnswer": "Self-play reinforcement learning",
+      "explanation": "Self-play reinforcement learning é uma técnica onde um agente de IA melhora jogando repetidamente contra versões anteriores de si mesmo. Foi usada pela DeepMind no AlphaGo e AlphaStar (que derrotou jogadores profissionais de StarCraft II) e pela OpenAI Five (Dota 2). O agente descobre estratégias sem necessidade de dados humanos."
+    },
+    {
+      "id": "jogos-10-10",
+      "category": "jogos",
+      "difficulty": 10,
+      "question": "Qual é o nome da técnica de upscaling de imagem da NVIDIA que usa inteligência artificial para gerar frames em alta resolução a partir de resolução nativa mais baixa?",
+      "options": [
+        "FSR (AMD FidelityFX Super Resolution)",
+        "TAA Upscaling",
+        "DLSS (Deep Learning Super Sampling)",
+        "XeSS (Intel Xe Super Sampling)"
+      ],
+      "correctAnswer": "DLSS (Deep Learning Super Sampling)",
+      "explanation": "DLSS, desenvolvida pela NVIDIA, usa uma rede neural treinada em supercomputadores para reconstruir imagens em alta resolução a partir de frames renderizados em resolução menor. Isso permite que jogos rodem em 1080p internamente e sejam exibidos em 4K com qualidade comparável à resolução nativa, aumentando significativamente o desempenho."
     }
   ]
 }

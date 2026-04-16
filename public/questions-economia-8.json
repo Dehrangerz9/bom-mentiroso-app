@@ -4,15 +4,91 @@
       "id": "economia-8-1",
       "category": "economia",
       "difficulty": 8,
-      "question": "O que é o 'Trilema de Mundell-Fleming' em economia internacional?",
-      "options": [
-        "Um país não pode ter simultaneamente livre movimentação de capitais, taxa de câmbio fixa e política monetária autônoma",
-        "A impossibilidade de crescimento, equilíbrio fiscal e baixa inflação ao mesmo tempo",
-        "O trade-off entre desemprego e inflação descrito na Curva de Phillips",
-        "A incompatibilidade entre crescimento, sustentabilidade e equidade"
-      ],
-      "correctAnswer": "Um país não pode ter simultaneamente livre movimentação de capitais, taxa de câmbio fixa e política monetária autônoma",
-      "explanation": "O Trilema impossível (ou triângulo de Mundell-Fleming) afirma que de três objetivos — câmbio fixo, mobilidade de capital e autonomia monetária — apenas dois podem coexistir."
+      "question": "No Trilema de Mundell-Fleming, quais três elementos são incompatíveis simultaneamente?",
+      "options": ["Câmbio, capital, moeda", "Câmbio, fiscal, moeda", "Inflação, juros, câmbio", "Comércio, capital, fiscal"],
+      "correctAnswer": "Câmbio, capital, moeda",
+      "explanation": "O Trilema impossível afirma que câmbio fixo, livre mobilidade de capitais e política monetária autônoma não podem coexistir: um país precisa abrir mão de um deles."
+    },
+    {
+      "id": "economia-8-2",
+      "category": "economia",
+      "difficulty": 8,
+      "question": "O que é a armadilha da liquidez keynesiana?",
+      "options": ["Juros zero ineficazes", "Deflação persistente", "Recessão prolongada", "Câmbio fixo"],
+      "correctAnswer": "Juros zero ineficazes",
+      "explanation": "A armadilha da liquidez ocorre quando os juros próximos de zero tornam a política monetária ineficaz, pois as pessoas preferem reter moeda a aplicar em títulos."
+    },
+    {
+      "id": "economia-8-3",
+      "category": "economia",
+      "difficulty": 8,
+      "question": "Quem desenvolveu a teoria das expectativas racionais?",
+      "options": ["Robert Lucas", "Milton Friedman", "Edmund Phelps", "Robert Solow"],
+      "correctAnswer": "Robert Lucas",
+      "explanation": "Robert Lucas desenvolveu as expectativas racionais nos anos 1970, argumentando que agentes usam toda informação disponível para prever variáveis econômicas, neutralizando políticas sistemáticas."
+    },
+    {
+      "id": "economia-8-4",
+      "category": "economia",
+      "difficulty": 8,
+      "question": "No modelo de crescimento de Solow, o que determina o crescimento de longo prazo?",
+      "options": ["Capital e tecnologia", "Trabalho e capital", "Poupança e consumo", "Exportação e importação"],
+      "correctAnswer": "Capital e tecnologia",
+      "explanation": "No modelo de Solow (1956), o crescimento de longo prazo é determinado pelo progresso tecnológico exógeno, enquanto capital e trabalho explicam o crescimento de curto/médio prazo."
+    },
+    {
+      "id": "economia-8-5",
+      "category": "economia",
+      "difficulty": 8,
+      "question": "Os Ciclos Reais de Negócios (RBC) atribuem as flutuações econômicas a quê?",
+      "options": ["Choques tecnológicos", "Choques de demanda", "Política monetária", "Ciclos keynesianos"],
+      "correctAnswer": "Choques tecnológicos",
+      "explanation": "A teoria dos RBC, de Kydland e Prescott (1982), sustenta que os ciclos econômicos são respostas ótimas dos agentes a choques tecnológicos reais, sem papel relevante para política monetária."
+    },
+    {
+      "id": "economia-8-6",
+      "category": "economia",
+      "difficulty": 8,
+      "question": "Quem criou o modelo de precificação de opções financeiras?",
+      "options": ["Black e Scholes", "Merton e Black", "Fisher e Black", "Scholes e Merton"],
+      "correctAnswer": "Black e Scholes",
+      "explanation": "Fischer Black e Myron Scholes publicaram o modelo Black-Scholes em 1973, revolucionando a precificação de derivativos. Robert Merton expandiu o modelo e partilhou o Nobel com Scholes em 1997."
+    },
+    {
+      "id": "economia-8-7",
+      "category": "economia",
+      "difficulty": 8,
+      "question": "O que descreve o efeito Fisher?",
+      "options": ["Juros e inflação", "Câmbio e juros", "Poupança e juros", "Moeda e preços"],
+      "correctAnswer": "Juros e inflação",
+      "explanation": "O efeito Fisher postula que a taxa de juros nominal se ajusta um para um com a inflação esperada, de modo que a taxa de juros real permanece constante no longo prazo."
+    },
+    {
+      "id": "economia-8-8",
+      "category": "economia",
+      "difficulty": 8,
+      "question": "O que afirma o Teorema de Modigliani-Miller?",
+      "options": ["Estrutura de capital", "Dividendos e valor", "Risco e retorno", "Custo do capital"],
+      "correctAnswer": "Estrutura de capital",
+      "explanation": "O Teorema de Modigliani-Miller (1958) afirma que, em mercados perfeitos sem impostos, a estrutura de capital (proporção entre dívida e capital próprio) não afeta o valor da empresa."
+    },
+    {
+      "id": "economia-8-9",
+      "category": "economia",
+      "difficulty": 8,
+      "question": "O Paradoxo de Leontief observou que os EUA exportavam bens com qual característica?",
+      "options": ["Intensivos em trabalho", "Intensivos em capital", "Alta tecnologia", "Baixo valor agregado"],
+      "correctAnswer": "Intensivos em trabalho",
+      "explanation": "Leontief (1953) verificou que os EUA, país abundante em capital, exportavam bens relativamente intensivos em trabalho, contrariando a teoria Heckscher-Ohlin."
+    },
+    {
+      "id": "economia-8-10",
+      "category": "economia",
+      "difficulty": 8,
+      "question": "O que afirma a hipótese de mercados eficientes (HME)?",
+      "options": ["Preços refletem informações", "Mercados são perfeitos", "Arbitragem é impossível", "Bolsas são racionais"],
+      "correctAnswer": "Preços refletem informações",
+      "explanation": "A HME de Eugene Fama (1970) postula que os preços dos ativos refletem toda informação disponível, tornando impossível obter retornos acima do mercado de forma consistente."
     }
   ]
 }
