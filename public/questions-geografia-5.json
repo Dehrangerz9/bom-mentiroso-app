@@ -1,0 +1,18 @@
+{
+  "questions": [
+    {
+      "id": "geografia-5-1",
+      "category": "geografia",
+      "difficulty": 5,
+      "question": "Qual é o país com maior número de fusos horários no mundo?",
+      "options": [
+        "Rússia",
+        "Estados Unidos",
+        "China",
+        "França"
+      ],
+      "correctAnswer": "França",
+      "explanation": "Contando territórios ultramarinos, a França possui 12 fusos horários, mais do que qualquer outro país."
+    }
+  ]
+}

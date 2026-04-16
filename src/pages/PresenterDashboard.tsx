@@ -5,7 +5,7 @@ import Avatar from '../components/shared/Avatar';
 // ─── Question deck data (static) ─────────────────────────────────────────────
 // Imported inline to avoid an extra fetch; matches backend questions.json exactly.
 interface DeckQuestion {
-  id: number;
+  id: string;
   category: string;
   difficulty: number;
   question: string;
@@ -247,14 +247,25 @@ const PresenterDashboard: React.FC = () => {
   const [confirmReset, setConfirmReset] = useState(false);
   const [kickTarget, setKickTarget] = useState<string | null>(null);
 
-  // Load question deck on mount
+  // Load question deck on mount — fetch all per-category-per-level files in parallel
   useEffect(() => {
-    fetch('/questions.json')
-      .then((r) => r.json())
-      .catch(() => null)
-      .then((data) => {
-        if (data?.questions) setDeckQuestions(data.questions);
-      });
+    const categoryIds = [
+      'thoughtworks', 'cultura-pop', 'geografia', 'historia-geral',
+      'ciencia-natureza', 'esportes', 'literatura', 'gastronomia',
+      'artes', 'astronomia', 'linguas', 'jogos', 'economia', 'ecologia',
+    ];
+    const levels = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    const fetches = categoryIds.flatMap((id) =>
+      levels.map((level) =>
+        fetch(`/questions-${id}-${level}.json`)
+          .then((r) => r.json())
+          .catch(() => ({ questions: [] }))
+      )
+    );
+    Promise.all(fetches).then((results) => {
+      const all = results.flatMap((d) => d?.questions ?? []);
+      if (all.length > 0) setDeckQuestions(all);
+    });
   }, []);
 
   useEffect(() => {

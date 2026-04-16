@@ -35,7 +35,7 @@ interface GameContextProps {
   /** Categories already used in this game (berlinda cannot repeat) */
   usedCategories: string[];
   /** IDs of questions already used — persists across resets */
-  usedQuestionIds: number[];
+  usedQuestionIds: string[];
   // Participant actions
   joinRoom: (code: string, name: string, avatar: string) => void;
   joinAsExpectator: (code: string) => void;
@@ -86,7 +86,7 @@ export const GameProvider: React.FC<GameProviderProps> = ({ children }) => {
   const [expectatorCount, setExpectatorCount] = useState(0);
   const [socketId, setSocketId] = useState<string | null>(null);
   const [usedCategories, setUsedCategories] = useState<string[]>([]);
-  const [usedQuestionIds, setUsedQuestionIds] = useState<number[]>([]);
+  const [usedQuestionIds, setUsedQuestionIds] = useState<string[]>([]);
 
   useEffect(() => {
     const socket = io(BACKEND_URL, { transports: ['websocket', 'polling'] });

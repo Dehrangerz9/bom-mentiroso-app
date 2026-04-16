@@ -10,7 +10,7 @@ export interface Player {
 }
 
 export interface Question {
-  id: number;
+  id: string;
   category: string;
   question: string;
   options: string[];
