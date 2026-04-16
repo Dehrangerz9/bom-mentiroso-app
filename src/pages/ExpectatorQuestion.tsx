@@ -9,7 +9,7 @@ const TRANSITION_DURATION_MS = 2200;
 const ExpectatorQuestion: React.FC = () => {
   const game = useContext(GameContext);
   const [showTransition, setShowTransition] = useState(true);
-  const [questionKey, setQuestionKey] = useState<number | null>(null);
+  const [questionKey, setQuestionKey] = useState<string | null>(null);
 
   // When a new question arrives, show the category transition first
   useEffect(() => {

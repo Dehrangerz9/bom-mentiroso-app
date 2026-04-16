@@ -59,7 +59,7 @@ function QuestionDeckModal({
   onClose,
 }: {
   questions: DeckQuestion[];
-  usedQuestionIds: number[];
+  usedQuestionIds: string[];
   onClose: () => void;
 }) {
   const [filter, setFilter] = useState('');
