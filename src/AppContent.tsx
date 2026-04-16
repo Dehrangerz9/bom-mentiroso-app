@@ -25,7 +25,7 @@ const AppContent: React.FC<AppContentProps> = ({ role, onBack }) => {
   const game = useContext(GameContext);
   // Track category transition for participant
   const [showCategoryTransition, setShowCategoryTransition] = useState(false);
-  const [transitionQuestionId, setTransitionQuestionId] = useState<number | null>(null);
+  const [transitionQuestionId, setTransitionQuestionId] = useState<string | null>(null);
   const [transitionCategoryName, setTransitionCategoryName] = useState('');
 
   // Trigger category transition when a new question arrives (participant only)
